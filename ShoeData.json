@@ -1,0 +1,1802 @@
+[
+    {
+        "id": "37d7197f-525e-485e-82bc-03d32053a09a",
+        "brand": "Jordan",
+        "colorway": "Black/University Blue/Black",
+        "gender": "men",
+        "name": "University Blue",
+        "releaseDate": "2022-12-29",
+        "retailPrice": 200,
+        "shoe": "Jordan 13 Retro",
+        "styleId": "DJ5982-041",
+        "title": "Jordan 13 Retro University Blue",
+        "year": 2022,
+        "media": {
+            "imageUrl": null,
+            "smallImageUrl": null,
+            "thumbUrl": null
+        }
+    },
+    {
+        "id": "737d6c5a-e350-4193-9d02-942a9ea0826a",
+        "brand": "Jordan",
+        "colorway": "Black/Cherrywood Red-Neutral Olive-Chutney",
+        "gender": "men",
+        "name": "Black Olive",
+        "releaseDate": "2022-12-17",
+        "retailPrice": 200,
+        "shoe": "Jordan 7 Retro",
+        "styleId": "DN9782-001",
+        "title": "Jordan 7 Retro Black Olive",
+        "year": 2022,
+        "media": {
+            "imageUrl": null,
+            "smallImageUrl": null,
+            "thumbUrl": null
+        }
+    },
+    {
+        "id": "1c53b1e5-991b-4b53-9275-b1ee84341efd",
+        "brand": "Jordan",
+        "colorway": "Black/Phantom-Ale Brown-Racer Blue-Team Orange",
+        "gender": "men",
+        "name": "Travis Scott Black Phantom",
+        "releaseDate": "2022-12-15",
+        "retailPrice": 0,
+        "shoe": "Jordan 1 Retro Low OG SP",
+        "styleId": "DM7866-001",
+        "title": "Jordan 1 Retro Low OG SP Travis Scott Black Phantom",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-Low-OG-SP-Travis-Scott-Black-Phantom.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660247001",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-Low-OG-SP-Travis-Scott-Black-Phantom.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660247001",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-Low-OG-SP-Travis-Scott-Black-Phantom.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660247001"
+        }
+    },
+    {
+        "id": "ae5c7174-c732-496f-ac49-5bd1a071e98b",
+        "brand": "Nike",
+        "colorway": "White/Particle Grey/Photon Dust/Bright Crimson",
+        "gender": "child",
+        "name": "Multi-Swoosh White Particle Grey Photon Dust Bright Crimson (GS)",
+        "releaseDate": "2022-12-15",
+        "retailPrice": 95,
+        "shoe": "Nike Air Force 1 Low",
+        "styleId": "DO6486-100",
+        "title": "Nike Air Force 1 Low Multi-Swoosh White Particle Grey Photon Dust Bright Crimson (GS)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Nike-Air-Force-1-Low-Multi-Swoosh-White-Particle-Grey-Photon-Dust-Bright-Crimson-GS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1653071694",
+            "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Force-1-Low-Multi-Swoosh-White-Particle-Grey-Photon-Dust-Bright-Crimson-GS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1653071694",
+            "thumbUrl": "https://images.stockx.com/images/Nike-Air-Force-1-Low-Multi-Swoosh-White-Particle-Grey-Photon-Dust-Bright-Crimson-GS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1653071694"
+        }
+    },
+    {
+        "id": "b6ad86bb-aec8-4b13-9296-5733d57aa786",
+        "brand": "Jordan",
+        "colorway": "White/Varsity Red/Black",
+        "gender": "men",
+        "name": "Cherry (2022)",
+        "releaseDate": "2022-12-10",
+        "retailPrice": 225,
+        "shoe": "Jordan 11 Retro",
+        "styleId": "CT8012-116",
+        "title": "Jordan 11 Retro Cherry (2022)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-11-Retro-Cherry-2022.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659807297",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-11-Retro-Cherry-2022.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659807297",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-11-Retro-Cherry-2022.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659807297"
+        }
+    },
+    {
+        "id": "31058c20-8d08-43d4-84ad-69d8c5f666cb",
+        "brand": "Converse",
+        "colorway": "White/Black",
+        "gender": "men",
+        "name": "Pokemon Poke Ball",
+        "releaseDate": "2022-12-07",
+        "retailPrice": 70,
+        "shoe": "Converse Chuck Taylor All-Star",
+        "styleId": "A01651C",
+        "title": "Converse Chuck Taylor All-Star Pokemon Poke Ball",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Converse-Chuck-Taylor-All-Star-Pokemon-Poke-Ball-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1650653647",
+            "smallImageUrl": "https://images.stockx.com/images/Converse-Chuck-Taylor-All-Star-Pokemon-Poke-Ball-Product.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1650653647",
+            "thumbUrl": "https://images.stockx.com/images/Converse-Chuck-Taylor-All-Star-Pokemon-Poke-Ball-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1650653647"
+        }
+    },
+    {
+        "id": "37ace937-3112-4d43-b4a1-b9afeb962bd9",
+        "brand": "Jordan",
+        "colorway": "White/Black-Cardinal Red-Chutney",
+        "gender": "men",
+        "name": "Cardinal (2022)",
+        "releaseDate": "2022-11-26",
+        "retailPrice": 210,
+        "shoe": "Jordan 7 Retro",
+        "styleId": "CU9307-106",
+        "title": "Jordan 7 Retro Cardinal (2022)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-7-Retro-Cardinal-2022.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659807271",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-7-Retro-Cardinal-2022.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659807271",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-7-Retro-Cardinal-2022.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659807271"
+        }
+    },
+    {
+        "id": "a4768603-de6b-4675-9039-786620ce423c",
+        "brand": "Jordan",
+        "colorway": "Black/Taxi",
+        "gender": "men",
+        "name": "Black Taxi",
+        "releaseDate": "2022-11-19",
+        "retailPrice": 200,
+        "shoe": "Jordan 12 Retro",
+        "styleId": "CT8013-071",
+        "title": "Jordan 12 Retro Black Taxi",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-12-Retro-Black-Taxi.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659807213",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-12-Retro-Black-Taxi.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659807213",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-12-Retro-Black-Taxi.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659807213"
+        }
+    },
+    {
+        "id": "c736189e-5f55-4e9d-911f-19bd7ad54d45",
+        "brand": "Jordan",
+        "colorway": "Black/Chrome",
+        "gender": "men",
+        "name": "Metallic Silver",
+        "releaseDate": "2022-11-19",
+        "retailPrice": 200,
+        "shoe": "Jordan 6 Retro",
+        "styleId": "DX2836-001",
+        "title": "Jordan 6 Retro Metallic Silver",
+        "year": 2022,
+        "media": {
+            "imageUrl": null,
+            "smallImageUrl": null,
+            "thumbUrl": null
+        }
+    },
+    {
+        "id": "3208c4cf-5823-4eef-bbb3-f18f932e27bd",
+        "brand": "Jordan",
+        "colorway": "Black/Black-Burgundy Crush",
+        "gender": "men",
+        "name": "A Ma Maniére Black",
+        "releaseDate": "2022-11-17",
+        "retailPrice": 225,
+        "shoe": "Jordan 12 Retro",
+        "styleId": "DV6989-001",
+        "title": "Jordan 12 Retro A Ma Maniére Black",
+        "year": 2022,
+        "media": {
+            "imageUrl": null,
+            "smallImageUrl": null,
+            "thumbUrl": null
+        }
+    },
+    {
+        "id": "af26feab-98a0-4b28-a4d1-afa5c89d4dbf",
+        "brand": "Jordan",
+        "colorway": "White/Black-Burgundy Crush",
+        "gender": "men",
+        "name": "A Ma Maniére White",
+        "releaseDate": "2022-11-17",
+        "retailPrice": 225,
+        "shoe": "Jordan 12 Retro",
+        "styleId": "DV6989-100",
+        "title": "Jordan 12 Retro A Ma Maniére White",
+        "year": 2022,
+        "media": {
+            "imageUrl": null,
+            "smallImageUrl": null,
+            "thumbUrl": null
+        }
+    },
+    {
+        "id": "076f7f94-6c9e-4dc6-a712-ef48e2d59486",
+        "brand": "Jordan",
+        "colorway": "Gorge Green/Metallic Silver/White",
+        "gender": "men",
+        "name": "Gorge Green",
+        "releaseDate": "2022-11-12",
+        "retailPrice": 180,
+        "shoe": "Jordan 1 Retro High OG",
+        "styleId": "DZ5485-303",
+        "title": "Jordan 1 Retro High OG Gorge Green",
+        "year": 2022,
+        "media": {
+            "imageUrl": null,
+            "smallImageUrl": null,
+            "thumbUrl": null
+        }
+    },
+    {
+        "id": "9a4d44f9-4b16-4abc-ba58-c0db340ee791",
+        "brand": "Jordan",
+        "colorway": "Varsity Red/Black-Sail-Muslin",
+        "gender": "men",
+        "name": "Chicago Reimagined",
+        "releaseDate": "2022-10-29",
+        "retailPrice": 180,
+        "shoe": "Jordan 1 Retro High OG",
+        "styleId": "DZ5485-612",
+        "title": "Jordan 1 Retro High OG Chicago Reimagined",
+        "year": 2022,
+        "media": {
+            "imageUrl": null,
+            "smallImageUrl": null,
+            "thumbUrl": null
+        }
+    },
+    {
+        "id": "d371dd76-bd1f-472d-ae34-e972ff72e571",
+        "brand": "Jordan",
+        "colorway": "Varsity Red/Black-Sail-Muslin",
+        "gender": "child",
+        "name": "Chicago Reimagined (GS)",
+        "releaseDate": "2022-10-29",
+        "retailPrice": 0,
+        "shoe": "Jordan 1 Retro High OG",
+        "styleId": "FD1437-612",
+        "title": "Jordan 1 Retro High OG Chicago Reimagined (GS)",
+        "year": 2022,
+        "media": {
+            "imageUrl": null,
+            "smallImageUrl": null,
+            "thumbUrl": null
+        }
+    },
+    {
+        "id": "ca9a4d0e-8996-4a76-939c-67d8c39c5cac",
+        "brand": "Jordan",
+        "colorway": "White/Varsity Red/Black",
+        "gender": "men",
+        "name": "Chicago (2022)",
+        "releaseDate": "2022-10-22",
+        "retailPrice": 200,
+        "shoe": "Jordan 2 Retro OG",
+        "styleId": "DX2454-106",
+        "title": "Jordan 2 Retro OG Chicago (2022)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-2-Retro-Chicago-2022.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658420494",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-2-Retro-Chicago-2022.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658420494",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-2-Retro-Chicago-2022.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658420494"
+        }
+    },
+    {
+        "id": "eba54ab6-d5fd-4e96-9c7c-545170fd07b5",
+        "brand": "Nike",
+        "colorway": "Black/Black- Multi-Color-White",
+        "gender": "men",
+        "name": "Neckface",
+        "releaseDate": "2022-10-15",
+        "retailPrice": 0,
+        "shoe": "Nike SB Dunk Low",
+        "styleId": "DQ4488-001",
+        "title": "Nike SB Dunk Low Neckface",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Nike-SB-Dunk-Low-Neckface.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660248388",
+            "smallImageUrl": "https://images.stockx.com/images/Nike-SB-Dunk-Low-Neckface.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660248388",
+            "thumbUrl": "https://images.stockx.com/images/Nike-SB-Dunk-Low-Neckface.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660248388"
+        }
+    },
+    {
+        "id": "8a23b055-2c9c-46e6-ae69-1540cf2e00ad",
+        "brand": "Jordan",
+        "colorway": "Archaeo Brown/Dark Smoke Grey-Fossil Stone-Light Bordeaux-Cement Grey",
+        "gender": "men",
+        "name": "Winterized Archaeo Brown",
+        "releaseDate": "2022-10-08",
+        "retailPrice": 210,
+        "shoe": "Jodan 3 Retro",
+        "styleId": "DR8869-200",
+        "title": "Jodan 3 Retro Winterized Archaeo Brown",
+        "year": 2022,
+        "media": {
+            "imageUrl": null,
+            "smallImageUrl": null,
+            "thumbUrl": null
+        }
+    },
+    {
+        "id": "14b6963d-e354-4039-9c5b-f773b51f25e1",
+        "brand": "Jordan",
+        "colorway": "Black/Fire Red/Metallic Gold/Cement Grey",
+        "gender": "women",
+        "name": "Black Cement Gold (W)",
+        "releaseDate": "2022-10-06",
+        "retailPrice": 200,
+        "shoe": "Jordan 3 Retro",
+        "styleId": "CK9246-067",
+        "title": "Jordan 3 Retro Black Cement Gold (W)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Jodan-3-Retro-Black-Cement-Gold-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659807182",
+            "smallImageUrl": "https://images.stockx.com/images/Jodan-3-Retro-Black-Cement-Gold-W.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659807182",
+            "thumbUrl": "https://images.stockx.com/images/Jodan-3-Retro-Black-Cement-Gold-W.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659807182"
+        }
+    },
+    {
+        "id": "4a151ea9-0926-4358-8f49-78981d025076",
+        "brand": "Jordan",
+        "colorway": "White/Midnight Navy/Light Smoke Grey-Fire Red",
+        "gender": "men",
+        "name": "White Midnight Navy",
+        "releaseDate": "2022-10-01",
+        "retailPrice": 210,
+        "shoe": "Jordan 4 Retro",
+        "styleId": "DH6927-140",
+        "title": "Jordan 4 Retro White Midnight Navy",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-4-Retro-White-Midnight-Navy.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659807266",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-4-Retro-White-Midnight-Navy.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659807266",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-4-Retro-White-Midnight-Navy.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659807266"
+        }
+    },
+    {
+        "id": "292a5794-8fd3-4fec-8c24-7139372fe32c",
+        "brand": "Jordan",
+        "colorway": "Taxi/Black-Sail",
+        "gender": "child",
+        "name": "Yellow Toe (GS)",
+        "releaseDate": "2022-09-24",
+        "retailPrice": 130,
+        "shoe": "Jordan 1 Retro High OG",
+        "styleId": "575441-711",
+        "title": "Jordan 1 Retro High OG Yellow Toe (GS)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Yellow-Toe-GS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660549796",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Yellow-Toe-GS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660549796",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Yellow-Toe-GS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660549796"
+        }
+    },
+    {
+        "id": "ac102a39-f583-49c0-852e-613cb8cc4efc",
+        "brand": "Jordan",
+        "colorway": "Taxi/Black-Sail",
+        "gender": "men",
+        "name": "Yellow Toe",
+        "releaseDate": "2022-09-24",
+        "retailPrice": 170,
+        "shoe": "Jordan 1 Retro High OG",
+        "styleId": "555088-711",
+        "title": "Jordan 1 Retro High OG Yellow Toe",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Yellow-Toe-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659018402",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Yellow-Toe-Product.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659018402",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Yellow-Toe-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659018402"
+        }
+    },
+    {
+        "id": "f16c341d-c921-4224-8309-fea66c7f1a2c",
+        "brand": "Jordan",
+        "colorway": "Light Orewood Brown/Neutral Grey/White/Cement",
+        "gender": "men",
+        "name": "Light Orewood Brown",
+        "releaseDate": "2022-09-24",
+        "retailPrice": 185,
+        "shoe": "Jordan 11 Retro Low IE",
+        "styleId": "919712-102",
+        "title": "Jordan 11 Retro Low IE Light Orewood Brown",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-11-Retro-Low-IE-Light-Orewood-Brown.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659564589",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-11-Retro-Low-IE-Light-Orewood-Brown.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659564589",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-11-Retro-Low-IE-Light-Orewood-Brown.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659564589"
+        }
+    },
+    {
+        "id": "e5352103-71dc-4b8a-bdca-b561aa924143",
+        "brand": "Jordan",
+        "colorway": "White/Worn Blue-Metallic Gold",
+        "gender": "women",
+        "name": "Denim (W)",
+        "releaseDate": "2022-09-23",
+        "retailPrice": 170,
+        "shoe": "Jordan 1 High OG",
+        "styleId": "DM9036-104",
+        "title": "Jordan 1 High OG Denim (W)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-High-OG-Denim-W-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1657605968",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-High-OG-Denim-W-Product.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1657605968",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-High-OG-Denim-W-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1657605968"
+        }
+    },
+    {
+        "id": "c7da63b7-84b1-43b2-b2ed-339b21a6e71b",
+        "brand": "Jordan",
+        "colorway": "Vachetta Tan/Black/Sail",
+        "gender": "men",
+        "name": "Heirloom",
+        "releaseDate": "2022-09-17",
+        "retailPrice": 170,
+        "shoe": "Jordan 1 Retro High OG",
+        "styleId": "555088-202",
+        "title": "Jordan 1 Retro High OG Heirloom",
+        "year": 2022,
+        "media": {
+            "imageUrl": null,
+            "smallImageUrl": null,
+            "thumbUrl": null
+        }
+    },
+    {
+        "id": "7359b0d3-4232-4365-89cb-1e4376f4f0f3",
+        "brand": "Jordan",
+        "colorway": "Celestine Blue/White-Multi-Color",
+        "gender": "men",
+        "name": "J Balvin",
+        "releaseDate": "2022-09-15",
+        "retailPrice": 225,
+        "shoe": "Jordan 2 Retro",
+        "styleId": "DQ7691-419",
+        "title": "Jordan 2 Retro J Balvin",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-2-Retro-J-Balvin.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658226768",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-2-Retro-J-Balvin.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658226768",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-2-Retro-J-Balvin.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658226768"
+        }
+    },
+    {
+        "id": "2adf45ff-2287-4cd2-bb58-efb2b7e2f386",
+        "brand": "Jordan",
+        "colorway": "White/Fire Red/Cement Grey/Black",
+        "gender": "men",
+        "name": "Fire Red (2022)",
+        "releaseDate": "2022-09-10",
+        "retailPrice": 210,
+        "shoe": "Jordan 3 Retro",
+        "styleId": "DN3707-160",
+        "title": "Jordan 3 Retro Fire Red (2022)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-3-Retro-Fire-Red-2022.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658172320",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-3-Retro-Fire-Red-2022.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658172320",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-3-Retro-Fire-Red-2022.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658172320"
+        }
+    },
+    {
+        "id": "41031e9a-b927-4d06-a8d9-d4cf44d8d382",
+        "brand": "Jordan",
+        "colorway": "White/Fire Red/Cement Grey/Black",
+        "gender": "child",
+        "name": "Fire Red (2022) (GS)",
+        "releaseDate": "2022-09-10",
+        "retailPrice": 150,
+        "shoe": "Jordan 3 Retro",
+        "styleId": "DM0967-160",
+        "title": "Jordan 3 Retro Fire Red (2022) (GS)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-3-Retro-Fire-Red-2022-GS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659518717",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-3-Retro-Fire-Red-2022-GS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659518717",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-3-Retro-Fire-Red-2022-GS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659518717"
+        }
+    },
+    {
+        "id": "9569bdd4-47c7-4570-9612-42f3a7883450",
+        "brand": "Jordan",
+        "colorway": "Sail/Black",
+        "gender": "women",
+        "name": "Expression (W)",
+        "releaseDate": "2022-09-10",
+        "retailPrice": 180,
+        "shoe": "Jordan 5 Retro",
+        "styleId": "DA8016-100",
+        "title": "Jordan 5 Retro Expression (W)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-5-Retro-Expression-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659564590",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-5-Retro-Expression-W.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659564590",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-5-Retro-Expression-W.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659564590"
+        }
+    },
+    {
+        "id": "bc628ddd-2695-4aaf-be85-e02f62f6db65",
+        "brand": "Jordan",
+        "colorway": "White/Fire Red/Cement Grey/Black",
+        "gender": "preschool",
+        "name": "Fire Red (2022) (PS)",
+        "releaseDate": "2022-09-10",
+        "retailPrice": 100,
+        "shoe": "Jordan 3 Retro",
+        "styleId": "DM0966-160",
+        "title": "Jordan 3 Retro Fire Red (2022) (PS)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-3-Retro-Fire-Red-2022-PS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660195751",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-3-Retro-Fire-Red-2022-PS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660195751",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-3-Retro-Fire-Red-2022-PS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660195751"
+        }
+    },
+    {
+        "id": "c360368a-c837-4207-9b5e-146990ab7eea",
+        "brand": "Jordan",
+        "colorway": "White/Fire Red/Cement Grey/Black",
+        "gender": "toddler",
+        "name": "Fire Red (2022) (TD)",
+        "releaseDate": "2022-09-10",
+        "retailPrice": 80,
+        "shoe": "Jordan 3 Retro",
+        "styleId": "DM0968-160",
+        "title": "Jordan 3 Retro Fire Red (2022) (TD)",
+        "year": 2022,
+        "media": {
+            "imageUrl": null,
+            "smallImageUrl": null,
+            "thumbUrl": null
+        }
+    },
+    {
+        "id": "2bfce114-79ba-4bcc-a286-8dbffe9dbf71",
+        "brand": "Jordan",
+        "colorway": "Magnet/College Navy",
+        "gender": "men",
+        "name": "Georgetown (2022)",
+        "releaseDate": "2022-09-03",
+        "retailPrice": 200,
+        "shoe": "Jordan 6 Retro",
+        "styleId": "CT8529-012",
+        "title": "Jordan 6 Retro Georgetown (2022)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-6-Retro-Georgetown-2022.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658226761",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-6-Retro-Georgetown-2022.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658226761",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-6-Retro-Georgetown-2022.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658226761"
+        }
+    },
+    {
+        "id": "2d64bd76-7073-4ab2-b787-19f4a60fb61b",
+        "brand": "Jordan",
+        "colorway": "Pumice/Game Royal-Black-Plum Eclipse",
+        "gender": "men",
+        "name": "PSG (2022)",
+        "releaseDate": "2022-09-03",
+        "retailPrice": 200,
+        "shoe": "Jordan 5 Retro Low",
+        "styleId": "DX6325-204",
+        "title": "Jordan 5 Retro Low PSG (2022)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-5-Retro-Low-PSG-2022-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659505871",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-5-Retro-Low-PSG-2022-Product.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659505871",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-5-Retro-Low-PSG-2022-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659505871"
+        }
+    },
+    {
+        "id": "848e3030-b423-4996-931f-f94c7f40a7cd",
+        "brand": "adidas",
+        "colorway": "Focus Orange/Cloud White/Gum",
+        "gender": "men",
+        "name": "Focus Orange",
+        "releaseDate": "2022-09-01",
+        "retailPrice": 85,
+        "shoe": "adidas Busenitz Vintage",
+        "styleId": "H03347",
+        "title": "adidas Busenitz Vintage Focus Orange",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/adidas-Busenitz-Vintage-Focus-Orange-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1652209460",
+            "smallImageUrl": "https://images.stockx.com/images/adidas-Busenitz-Vintage-Focus-Orange-Product.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1652209460",
+            "thumbUrl": "https://images.stockx.com/images/adidas-Busenitz-Vintage-Focus-Orange-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1652209460"
+        }
+    },
+    {
+        "id": "6cfe73c9-f567-4257-b85d-ffbc657e1d6c",
+        "brand": "Jordan",
+        "colorway": "Chile Red/Metallic Gold-University Red-Black",
+        "gender": "men",
+        "name": "Luka Doncic El Matador",
+        "releaseDate": "2022-08-31",
+        "retailPrice": 200,
+        "shoe": "Jordan 36",
+        "styleId": "DV5267-676/DV5268-676",
+        "title": "Jordan 36 Luka Doncic El Matador",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-36-Luka-Doncic-El-Matador.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658863532",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-36-Luka-Doncic-El-Matador.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658863532",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-36-Luka-Doncic-El-Matador.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658863532"
+        }
+    },
+    {
+        "id": "c79b50b7-0709-491e-989b-df4d9e7781b9",
+        "brand": "adidas",
+        "colorway": "Wonder Mauve/Wonder Mauve/Core Black",
+        "gender": "women",
+        "name": "Wonder Mauve",
+        "releaseDate": "2022-08-31",
+        "retailPrice": 90,
+        "shoe": "adidas Karlie Kloss Trainer XX92",
+        "styleId": "GY0850",
+        "title": "adidas Karlie Kloss Trainer XX92 Wonder Mauve",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/adidas-Karlie-Kloss-Trainer-XX92-Wonder-Mauve.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1654717214",
+            "smallImageUrl": "https://images.stockx.com/images/adidas-Karlie-Kloss-Trainer-XX92-Wonder-Mauve.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1654717214",
+            "thumbUrl": "https://images.stockx.com/images/adidas-Karlie-Kloss-Trainer-XX92-Wonder-Mauve.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1654717214"
+        }
+    },
+    {
+        "id": "b49318a0-9f5c-4e01-9de1-5ca5b9ee0ebb",
+        "brand": "Jordan",
+        "colorway": "Stealth/White",
+        "gender": "men",
+        "name": "Stealth",
+        "releaseDate": "2022-08-27",
+        "retailPrice": 170,
+        "shoe": "Jordan 1 Retro High OG",
+        "styleId": "555088-037",
+        "title": "Jordan 1 Retro High OG Stealth",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Stealth-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660201619",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Stealth-Product.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660201619",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Stealth-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660201619"
+        }
+    },
+    {
+        "id": "e630e1c2-0422-4cf8-8ea6-65b97fe56338",
+        "brand": "Jordan",
+        "colorway": "Stealth/White",
+        "gender": "child",
+        "name": "Stealth (GS)",
+        "releaseDate": "2022-08-27",
+        "retailPrice": 140,
+        "shoe": "Jordan 1 Retro High OG",
+        "styleId": "575441-037",
+        "title": "Jordan 1 Retro High OG Stealth (GS)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Stealth-GS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658736260",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Stealth-GS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658736260",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Stealth-GS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658736260"
+        }
+    },
+    {
+        "id": "a0fee9fe-d4be-41f8-b07a-d964fe10cda1",
+        "brand": "New Balance",
+        "colorway": "White/Black/Vibrant Apricot",
+        "gender": "unisex",
+        "name": "Pompey",
+        "releaseDate": "2022-08-26",
+        "retailPrice": 170,
+        "shoe": "New Balance Coco CG1",
+        "styleId": "UCHCOCOM",
+        "title": "New Balance Coco CG1 Pompey",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/New-Balance-Coco-CG1-Pompey.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658863537",
+            "smallImageUrl": "https://images.stockx.com/images/New-Balance-Coco-CG1-Pompey.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658863537",
+            "thumbUrl": "https://images.stockx.com/images/New-Balance-Coco-CG1-Pompey.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658863537"
+        }
+    },
+    {
+        "id": "e603902f-36dc-431a-b97a-d2de2d8ae8ed",
+        "brand": "Jordan",
+        "colorway": "Black/Dark Smoke Grey-Light Smoke Grey-Sail-Coconut Milk",
+        "gender": "men",
+        "name": "Dark Smoke Grey",
+        "releaseDate": "2022-08-26",
+        "retailPrice": 0,
+        "shoe": "Jordan 1 Low OG EX",
+        "styleId": "DV0982-006",
+        "title": "Jordan 1 Low OG EX Dark Smoke Grey",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Low-OG-EX-Dark-Smoke-Grey.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659564594",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-Low-OG-EX-Dark-Smoke-Grey.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659564594",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-Low-OG-EX-Dark-Smoke-Grey.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659564594"
+        }
+    },
+    {
+        "id": "10043609-c458-4d07-ab5e-130a91b02446",
+        "brand": "Reebok",
+        "colorway": "Core Black/Cool Shadow/Track Gold",
+        "gender": "unisex",
+        "name": "Jurassic World",
+        "releaseDate": "2022-08-25",
+        "retailPrice": 110,
+        "shoe": "Reebok LX 2200",
+        "styleId": "HQ6264",
+        "title": "Reebok LX 2200 Jurassic World",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Reebok-LX-2200-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289578",
+            "smallImageUrl": "https://images.stockx.com/images/Reebok-LX-2200-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289578",
+            "thumbUrl": "https://images.stockx.com/images/Reebok-LX-2200-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289578"
+        }
+    },
+    {
+        "id": "3194c709-2c03-4b67-ab32-6a91eef90fd2",
+        "brand": "Reebok",
+        "colorway": "Stone/Cliff Stone/Parched Earth",
+        "gender": "unisex",
+        "name": "Jurassic World",
+        "releaseDate": "2022-08-25",
+        "retailPrice": 200,
+        "shoe": "Reebok The Answer DMX",
+        "styleId": "HQ6276",
+        "title": "Reebok The Answer DMX Jurassic World",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Reebok-The-Answer-DMX-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289573",
+            "smallImageUrl": "https://images.stockx.com/images/Reebok-The-Answer-DMX-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289573",
+            "thumbUrl": "https://images.stockx.com/images/Reebok-The-Answer-DMX-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289573"
+        }
+    },
+    {
+        "id": "474b4cfc-0eaa-4ed1-8c19-f6a791473cde",
+        "brand": "Reebok",
+        "colorway": "Boulder Grey/Parchment/Oatmeal",
+        "gender": "unisex",
+        "name": "Jurassic World",
+        "releaseDate": "2022-08-25",
+        "retailPrice": 130,
+        "shoe": "Reebok Beatnik",
+        "styleId": "HQ6266",
+        "title": "Reebok Beatnik Jurassic World",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Reebok-Beatnik-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289572",
+            "smallImageUrl": "https://images.stockx.com/images/Reebok-Beatnik-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289572",
+            "thumbUrl": "https://images.stockx.com/images/Reebok-Beatnik-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289572"
+        }
+    },
+    {
+        "id": "5310b0dd-5632-489e-87ef-51c91b362ea8",
+        "brand": "Jordan",
+        "colorway": "Sanddrift/Malt/Turf Orange/Peach Cream",
+        "gender": "women",
+        "name": "Bephie’s Beauty Supply (W)",
+        "releaseDate": "2022-08-25",
+        "retailPrice": 210,
+        "shoe": "Jordan 7 Retro",
+        "styleId": "DR1485-168",
+        "title": "Jordan 7 Retro Bephie’s Beauty Supply (W)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-7-Retro-Bephies-Beauty-Supply-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659564481",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-7-Retro-Bephies-Beauty-Supply-W.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659564481",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-7-Retro-Bephies-Beauty-Supply-W.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659564481"
+        }
+    },
+    {
+        "id": "8c4f9233-121b-4f96-bb1b-a97616371596",
+        "brand": "Reebok",
+        "colorway": "Pure Grey 5/Flat Grey/Brave Blue",
+        "gender": "unisex",
+        "name": "Jurassic World",
+        "releaseDate": "2022-08-25",
+        "retailPrice": 100,
+        "shoe": "Reebok Classic Leather Ripple",
+        "styleId": "HQ6253",
+        "title": "Reebok Classic Leather Ripple Jurassic World",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Reebok-Classic-Leather-Ripple-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289573",
+            "smallImageUrl": "https://images.stockx.com/images/Reebok-Classic-Leather-Ripple-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289573",
+            "thumbUrl": "https://images.stockx.com/images/Reebok-Classic-Leather-Ripple-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289573"
+        }
+    },
+    {
+        "id": "b8d507e9-1ac3-46ee-9785-301611408580",
+        "brand": "Reebok",
+        "colorway": "Spirit White/Silver Metallic/Track Gold",
+        "gender": "men",
+        "name": "Jurassic World",
+        "releaseDate": "2022-08-25",
+        "retailPrice": 100,
+        "shoe": "Reebok Club C Revenge",
+        "styleId": "HQ6205",
+        "title": "Reebok Club C Revenge Jurassic World",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Reebok-Club-C-Revenge-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289573",
+            "smallImageUrl": "https://images.stockx.com/images/Reebok-Club-C-Revenge-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289573",
+            "thumbUrl": "https://images.stockx.com/images/Reebok-Club-C-Revenge-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289573"
+        }
+    },
+    {
+        "id": "bc85a7bd-d6ac-44e0-8780-3e7cb7d891bb",
+        "brand": "Reebok",
+        "colorway": "Modern Olive/Core Black/Wild Khaki",
+        "gender": "men",
+        "name": "Jurassic World",
+        "releaseDate": "2022-08-25",
+        "retailPrice": 150,
+        "shoe": "Reebok Nano X2 Adventure",
+        "styleId": "HQ6265",
+        "title": "Reebok Nano X2 Adventure Jurassic World",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Reebok-Nano-X2-Adventure-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289573",
+            "smallImageUrl": "https://images.stockx.com/images/Reebok-Nano-X2-Adventure-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289573",
+            "thumbUrl": "https://images.stockx.com/images/Reebok-Nano-X2-Adventure-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289573"
+        }
+    },
+    {
+        "id": "be04444c-73b7-4a8c-b537-cd43a8e831e9",
+        "brand": "Reebok",
+        "colorway": "Stark Grey/Peat S18-R/Grizzly Brown",
+        "gender": "unisex",
+        "name": "Jurassic World",
+        "releaseDate": "2022-08-25",
+        "retailPrice": 140,
+        "shoe": "Reebok Zig Kinetica 2.5",
+        "styleId": "HQ6263",
+        "title": "Reebok Zig Kinetica 2.5 Jurassic World",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Reebok-Zig-Kinetica-2-5-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289578",
+            "smallImageUrl": "https://images.stockx.com/images/Reebok-Zig-Kinetica-2-5-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289578",
+            "thumbUrl": "https://images.stockx.com/images/Reebok-Zig-Kinetica-2-5-Jurassic-World.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660289578"
+        }
+    },
+    {
+        "id": "dda4b14a-5d97-41ce-9e4f-8dfea7d33944",
+        "brand": "Jordan",
+        "colorway": "White/Black/Dark Iris/Cement Grey",
+        "gender": "men",
+        "name": "Dark Iris",
+        "releaseDate": "2022-08-24",
+        "retailPrice": 200,
+        "shoe": "Jordan 3 Retro",
+        "styleId": "CT8532-105",
+        "title": "Jordan 3 Retro Dark Iris",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-3-Retro-Dark-Iris.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1656390901",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-3-Retro-Dark-Iris.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1656390901",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-3-Retro-Dark-Iris.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1656390901"
+        }
+    },
+    {
+        "id": "2958cb96-313b-4a1e-b9f4-6fed76885c8c",
+        "brand": "adidas",
+        "colorway": "Flax/Flax/Flax",
+        "gender": "child",
+        "name": "Flax (Kids)",
+        "releaseDate": "2022-08-22",
+        "retailPrice": 0,
+        "shoe": "adidas Yeezy Slide",
+        "styleId": "",
+        "title": "adidas Yeezy Slide Flax (Kids)",
+        "year": 2022,
+        "media": {
+            "imageUrl": null,
+            "smallImageUrl": null,
+            "thumbUrl": null
+        }
+    },
+    {
+        "id": "7b42343d-d3cf-44ed-9314-293b25f6050d",
+        "brand": "adidas",
+        "colorway": "Flax/Flax/Flax",
+        "gender": "toddler",
+        "name": "Flax (Infants)",
+        "releaseDate": "2022-08-22",
+        "retailPrice": 0,
+        "shoe": "adidas Yeezy Slide",
+        "styleId": "",
+        "title": "adidas Yeezy Slide Flax (Infants)",
+        "year": 2022,
+        "media": {
+            "imageUrl": null,
+            "smallImageUrl": null,
+            "thumbUrl": null
+        }
+    },
+    {
+        "id": "f207c396-e5b6-4475-84e0-fd2db0949ec3",
+        "brand": "adidas",
+        "colorway": "Flax/Flax/Flax",
+        "gender": "men",
+        "name": "Flax",
+        "releaseDate": "2022-08-22",
+        "retailPrice": 70,
+        "shoe": "adidas Yeezy Slide",
+        "styleId": "FZ5896",
+        "title": "adidas Yeezy Slide Flax",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/adidas-Yeezy-Slide-Flax.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660200179",
+            "smallImageUrl": "https://images.stockx.com/images/adidas-Yeezy-Slide-Flax.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660200179",
+            "thumbUrl": "https://images.stockx.com/images/adidas-Yeezy-Slide-Flax.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660200179"
+        }
+    },
+    {
+        "id": "6e4f6bbb-fb82-4119-beb0-bc9d4b1bd415",
+        "brand": "Jordan",
+        "colorway": "Stealth/White/Cool Grey",
+        "gender": "child",
+        "name": "Stealth (GS)",
+        "releaseDate": "2022-08-20",
+        "retailPrice": 0,
+        "shoe": "Jordan 12 Retro",
+        "styleId": "153265-015",
+        "title": "Jordan 12 Retro Stealth (GS)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-12-Retro-Stealth-GS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659514806",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-12-Retro-Stealth-GS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659514806",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-12-Retro-Stealth-GS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659514806"
+        }
+    },
+    {
+        "id": "9650199f-84b8-4bed-8b19-47b9b65fc2fc",
+        "brand": "Jordan",
+        "colorway": "Stealth/White/Cool Grey",
+        "gender": "men",
+        "name": "Stealth",
+        "releaseDate": "2022-08-20",
+        "retailPrice": 200,
+        "shoe": "Jordan 12 Retro",
+        "styleId": "CT8013-015",
+        "title": "Jordan 12 Retro Stealth",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-12-Retro-Stealth-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659704883",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-12-Retro-Stealth-Product.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659704883",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-12-Retro-Stealth-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659704883"
+        }
+    },
+    {
+        "id": "9ff22a11-8c30-4798-a774-392337b879de",
+        "brand": "Jordan",
+        "colorway": "Taxi/White-Black",
+        "gender": "men",
+        "name": "Taxi",
+        "releaseDate": "2022-08-20",
+        "retailPrice": 125,
+        "shoe": "Air Jordan 1 Mid",
+        "styleId": "554724-701",
+        "title": "Air Jordan 1 Mid Taxi",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Air-Jordan-1-Mid-Taxi.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659852687",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Air-Jordan-1-Mid-Taxi.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659852687",
+            "thumbUrl": "https://images.stockx.com/images/Air-Air-Jordan-1-Mid-Taxi.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659852687"
+        }
+    },
+    {
+        "id": "d5893095-e5a2-4175-b516-a0790a341ecd",
+        "brand": "Jordan",
+        "colorway": "Taxi/White-Black",
+        "gender": "child",
+        "name": "Taxi (GS)",
+        "releaseDate": "2022-08-20",
+        "retailPrice": 0,
+        "shoe": "Air Jordan 1 Mid",
+        "styleId": "554725-701",
+        "title": "Air Jordan 1 Mid Taxi (GS)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Air-Jordan-1-Mid-Taxi-GS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659852687",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Air-Jordan-1-Mid-Taxi-GS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659852687",
+            "thumbUrl": "https://images.stockx.com/images/Air-Air-Jordan-1-Mid-Taxi-GS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659852687"
+        }
+    },
+    {
+        "id": "4028f024-2168-4857-923a-151e16d19b5f",
+        "brand": "New Balance",
+        "colorway": "Rain Cloud/Metallic Silver/Grey",
+        "gender": "men",
+        "name": "thisisnevertthat ''The 2022 Downtown Run''",
+        "releaseDate": "2022-08-19",
+        "retailPrice": 150,
+        "shoe": "New Balance 1906R",
+        "styleId": "M1906RTI",
+        "title": "New Balance 1906R thisisnevertthat ''The 2022 Downtown Run''",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/New-Balance-1906R-thisisnevertthat.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659668590",
+            "smallImageUrl": "https://images.stockx.com/images/New-Balance-1906R-thisisnevertthat.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659668590",
+            "thumbUrl": "https://images.stockx.com/images/New-Balance-1906R-thisisnevertthat.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659668590"
+        }
+    },
+    {
+        "id": "67444a77-37d6-4238-9875-aadffaa509ec",
+        "brand": "New Balance",
+        "colorway": "Grey/Team Navy/Rain Cloud",
+        "gender": "men",
+        "name": "thisisneverthat ''The 2022 Downtown Run''",
+        "releaseDate": "2022-08-19",
+        "retailPrice": 150,
+        "shoe": "New Balance 2002R",
+        "styleId": "M2002RTH",
+        "title": "New Balance 2002R thisisneverthat ''The 2022 Downtown Run''",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/New-Balance-2002R-thisisneverthat-The-2022-Downtown-Run.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659610526",
+            "smallImageUrl": "https://images.stockx.com/images/New-Balance-2002R-thisisneverthat-The-2022-Downtown-Run.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659610526",
+            "thumbUrl": "https://images.stockx.com/images/New-Balance-2002R-thisisneverthat-The-2022-Downtown-Run.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659610526"
+        }
+    },
+    {
+        "id": "68191cea-e5d5-407a-baeb-7693d2b0057b",
+        "brand": "Jordan",
+        "colorway": "White/Fire Red-French Blue-Light Steel Grey",
+        "gender": "men",
+        "name": "French Blue",
+        "releaseDate": "2022-08-19",
+        "retailPrice": 200,
+        "shoe": "Jordan 13 Retro",
+        "styleId": "414571-164",
+        "title": "Jordan 13 Retro French Blue",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-13-Retro-French-Blue.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659512950",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-13-Retro-French-Blue.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659512950",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-13-Retro-French-Blue.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659512950"
+        }
+    },
+    {
+        "id": "73085d6c-6c2c-4ded-906b-f7e5a0573a3e",
+        "brand": "Reebok",
+        "colorway": "Footwear White/Classic Cobalt/Clear",
+        "gender": "child",
+        "name": "Blue Toe (2022) (GS)",
+        "releaseDate": "2022-08-19",
+        "retailPrice": 100,
+        "shoe": "Reebok Question Mid",
+        "styleId": "GY8820",
+        "title": "Reebok Question Mid Blue Toe (2022) (GS)",
+        "year": 2022,
+        "media": {
+            "imageUrl": null,
+            "smallImageUrl": null,
+            "thumbUrl": null
+        }
+    },
+    {
+        "id": "81ee2b9d-3679-485a-b65b-13b6f4a2bbf5",
+        "brand": "Reebok",
+        "colorway": "Footwear White/Classic Cobalt/Clear",
+        "gender": "toddler",
+        "name": "Blue Toe (2022) (TD)",
+        "releaseDate": "2022-08-19",
+        "retailPrice": 50,
+        "shoe": "Reebok Question Mid",
+        "styleId": "GY8825",
+        "title": "Reebok Question Mid Blue Toe (2022) (TD)",
+        "year": 2022,
+        "media": {
+            "imageUrl": null,
+            "smallImageUrl": null,
+            "thumbUrl": null
+        }
+    },
+    {
+        "id": "89f55c7a-7a3d-4cf9-83f7-fa4c6c1059a0",
+        "brand": "Reebok",
+        "colorway": "Footwear White/Classic Cobalt/Clear",
+        "gender": "men",
+        "name": "Blue Toe (2022)",
+        "releaseDate": "2022-08-19",
+        "retailPrice": 160,
+        "shoe": "Reebok Question Mid",
+        "styleId": "GX0227",
+        "title": "Reebok Question Mid Blue Toe (2022)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Reebok-Question-Mid-Blue-Toe-2022-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1657782277",
+            "smallImageUrl": "https://images.stockx.com/images/Reebok-Question-Mid-Blue-Toe-2022-Product.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1657782277",
+            "thumbUrl": "https://images.stockx.com/images/Reebok-Question-Mid-Blue-Toe-2022-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1657782277"
+        }
+    },
+    {
+        "id": "91e8c101-ca4b-4a66-a336-31036ccd68dc",
+        "brand": "Nike",
+        "colorway": "Summit White/Black",
+        "gender": "men",
+        "name": "Ambush Summit White Black",
+        "releaseDate": "2022-08-19",
+        "retailPrice": 210,
+        "shoe": "Nike Air Adjust Force",
+        "styleId": "DM8465-100",
+        "title": "Nike Air Adjust Force Ambush Summit White Black",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Nike-Air-Adjust-Force-Ambush-White.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658427633",
+            "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Adjust-Force-Ambush-White.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658427633",
+            "thumbUrl": "https://images.stockx.com/images/Nike-Air-Adjust-Force-Ambush-White.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658427633"
+        }
+    },
+    {
+        "id": "a166dce2-d68d-4579-a456-601501b51baa",
+        "brand": "adidas",
+        "colorway": "Shadow Olive/Shadow Olive/Impact Yellow",
+        "gender": "men",
+        "name": "Shadow Olive Yellow Gum",
+        "releaseDate": "2022-08-19",
+        "retailPrice": 100,
+        "shoe": "adidas Gazelle",
+        "styleId": "HQ9873",
+        "title": "adidas Gazelle Shadow Olive Yellow Gum",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/adidas-Gazelle-Shadow-Olive-Yellow-Gum.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659564589",
+            "smallImageUrl": "https://images.stockx.com/images/adidas-Gazelle-Shadow-Olive-Yellow-Gum.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659564589",
+            "thumbUrl": "https://images.stockx.com/images/adidas-Gazelle-Shadow-Olive-Yellow-Gum.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659564589"
+        }
+    },
+    {
+        "id": "ca9958b4-9803-45a4-a4f2-6b42a6fe78f3",
+        "brand": "Reebok",
+        "colorway": "Footwear White/Classic Cobalt/Clear",
+        "gender": "preschool",
+        "name": "Blue Toe (2022) (PS)",
+        "releaseDate": "2022-08-19",
+        "retailPrice": 75,
+        "shoe": "Reebok Question Mid",
+        "styleId": "GY8824",
+        "title": "Reebok Question Mid Blue Toe (2022) (PS)",
+        "year": 2022,
+        "media": {
+            "imageUrl": null,
+            "smallImageUrl": null,
+            "thumbUrl": null
+        }
+    },
+    {
+        "id": "e2d1fe10-1fe6-45cd-87f0-ba27bf5e60cb",
+        "brand": "Nike",
+        "colorway": "Black/Psychic Purple-White",
+        "gender": "men",
+        "name": "Ambush Black Psychic Purple",
+        "releaseDate": "2022-08-19",
+        "retailPrice": 210,
+        "shoe": "Nike Air Adjust Force",
+        "styleId": "DM8465-001",
+        "title": "Nike Air Adjust Force Ambush Black Psychic Purple",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Nike-Air-Adjust-Force-Ambush-Black.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658427626",
+            "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Adjust-Force-Ambush-Black.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658427626",
+            "thumbUrl": "https://images.stockx.com/images/Nike-Air-Adjust-Force-Ambush-Black.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1658427626"
+        }
+    },
+    {
+        "id": "03bc15bf-351d-49cb-a527-86b84f4c705e",
+        "brand": "Jordan",
+        "colorway": "Light Ginger/Black/White",
+        "gender": "women",
+        "name": "Ginger (2022) (W)",
+        "releaseDate": "2022-08-17",
+        "retailPrice": 200,
+        "shoe": "Jordan 14 Retro",
+        "styleId": "",
+        "title": "Jordan 14 Retro Ginger (2022) (W)",
+        "year": 2022,
+        "media": {
+            "imageUrl": null,
+            "smallImageUrl": null,
+            "thumbUrl": null
+        }
+    },
+    {
+        "id": "460c6940-c11a-489c-af5f-2212d2caa625",
+        "brand": "Jordan",
+        "colorway": "Light Ginger/Black/White",
+        "gender": "men",
+        "name": "Light Ginger (2022)",
+        "releaseDate": "2022-08-17",
+        "retailPrice": 210,
+        "shoe": "Jordan 14 Retro",
+        "styleId": "487471-701",
+        "title": "Jordan 14 Retro Light Ginger (2022)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-14-Retro-Ginger-2022.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1657601617",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-14-Retro-Ginger-2022.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1657601617",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-14-Retro-Ginger-2022.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1657601617"
+        }
+    },
+    {
+        "id": "3aad3563-e2e6-4610-a108-3d0e2b88f2f1",
+        "brand": "adidas",
+        "colorway": "Cloud Whte/Cloud White/Team Shock Pink",
+        "gender": "women",
+        "name": "Thebe Magugu Team Shock Pink (W)",
+        "releaseDate": "2022-08-15",
+        "retailPrice": 150,
+        "shoe": "adidas X9000L4",
+        "styleId": "HP2119",
+        "title": "adidas X9000L4 Thebe Magugu Team Shock Pink (W)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/adidas-X9000L4-Thebe-Magugu-Team-Shock-Pink-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659564589",
+            "smallImageUrl": "https://images.stockx.com/images/adidas-X9000L4-Thebe-Magugu-Team-Shock-Pink-W.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659564589",
+            "thumbUrl": "https://images.stockx.com/images/adidas-X9000L4-Thebe-Magugu-Team-Shock-Pink-W.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659564589"
+        }
+    },
+    {
+        "id": "3c2d7412-2dfe-420a-91f6-6f254241fa74",
+        "brand": "adidas",
+        "colorway": "Blue/Cloud White/Gold Metallic",
+        "gender": "men",
+        "name": "Blue Cloud White Gold Metallic",
+        "releaseDate": "2022-08-15",
+        "retailPrice": 100,
+        "shoe": "adidas Gazelle",
+        "styleId": "GX2207",
+        "title": "adidas Gazelle Blue Cloud White Gold Metallic",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/adidas-Gazelle-Blue-Cloud-White-Gold-Metallic.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660598458",
+            "smallImageUrl": "https://images.stockx.com/images/adidas-Gazelle-Blue-Cloud-White-Gold-Metallic.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660598458",
+            "thumbUrl": "https://images.stockx.com/images/adidas-Gazelle-Blue-Cloud-White-Gold-Metallic.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660598458"
+        }
+    },
+    {
+        "id": "3fa82078-a1ef-4025-8432-dd1a77be66df",
+        "brand": "adidas",
+        "colorway": "Chalk White/Chalk White/Core Black",
+        "gender": "men",
+        "name": "Chalk White",
+        "releaseDate": "2022-08-15",
+        "retailPrice": 100,
+        "shoe": "adidas Stan Smith",
+        "styleId": "GX4430",
+        "title": "adidas Stan Smith Chalk White",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/adidas-Stan-Smith-Chalk-White.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660598458",
+            "smallImageUrl": "https://images.stockx.com/images/adidas-Stan-Smith-Chalk-White.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660598458",
+            "thumbUrl": "https://images.stockx.com/images/adidas-Stan-Smith-Chalk-White.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660598458"
+        }
+    },
+    {
+        "id": "9d104c6f-912c-4e91-a16c-8ea9c7e44827",
+        "brand": "adidas",
+        "colorway": "Cloud White/Magic Beige/Aluminum",
+        "gender": "men",
+        "name": "Cloud White Magic Beige",
+        "releaseDate": "2022-08-15",
+        "retailPrice": 130,
+        "shoe": "adidas Forum 84 Hi",
+        "styleId": "GW1905",
+        "title": "adidas Forum 84 Hi Cloud White Magic Beige",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/adidas-Forum-84-Hi-Cloud-White-Magic-Beige.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660598458",
+            "smallImageUrl": "https://images.stockx.com/images/adidas-Forum-84-Hi-Cloud-White-Magic-Beige.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660598458",
+            "thumbUrl": "https://images.stockx.com/images/adidas-Forum-84-Hi-Cloud-White-Magic-Beige.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660598458"
+        }
+    },
+    {
+        "id": "3aedaa29-89a7-4bcf-ae1e-392074bc120d",
+        "brand": "Nike",
+        "colorway": "White/Metallic Gold-University Red",
+        "gender": "men",
+        "name": "froSkate All Love",
+        "releaseDate": "2022-08-13",
+        "retailPrice": 130,
+        "shoe": "Nike SB Dunk High Pro",
+        "styleId": "DH7778-100",
+        "title": "Nike SB Dunk High Pro froSkate All Love",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Nike-SB-Dunk-High-Pro-froSkate-All-Love.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659638013",
+            "smallImageUrl": "https://images.stockx.com/images/Nike-SB-Dunk-High-Pro-froSkate-All-Love.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659638013",
+            "thumbUrl": "https://images.stockx.com/images/Nike-SB-Dunk-High-Pro-froSkate-All-Love.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659638013"
+        }
+    },
+    {
+        "id": "3b576b2f-1506-4f01-8937-1f058dc9a3c9",
+        "brand": "Jordan",
+        "colorway": "Black/Citrus-Varsity Red",
+        "gender": "preschool",
+        "name": "Citrus (2022) (PS)",
+        "releaseDate": "2022-08-13",
+        "retailPrice": 90,
+        "shoe": "Jordan 7 Retro",
+        "styleId": "DJ2778-081",
+        "title": "Jordan 7 Retro Citrus (2022) (PS)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-7-Retro-Citrus-2022-PS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1656519101",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-7-Retro-Citrus-2022-PS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1656519101",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-7-Retro-Citrus-2022-PS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1656519101"
+        }
+    },
+    {
+        "id": "456af692-df81-45bf-b148-a35244dc7103",
+        "brand": "Jordan",
+        "colorway": "Black/Citrus-Varsity Red",
+        "gender": "child",
+        "name": "Citrus (2022) (GS)",
+        "releaseDate": "2022-08-13",
+        "retailPrice": 150,
+        "shoe": "Jordan 7 Retro",
+        "styleId": "DQ6040-081",
+        "title": "Jordan 7 Retro Citrus (2022) (GS)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-7-Retro-Citrus-2022-GS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1656519101",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-7-Retro-Citrus-2022-GS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1656519101",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-7-Retro-Citrus-2022-GS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1656519101"
+        }
+    },
+    {
+        "id": "60d7287f-274c-49f0-a208-4e3ccbdf1930",
+        "brand": "New Balance",
+        "colorway": "White/Blue/Pink",
+        "gender": "unisex",
+        "name": "Sagan Tosu",
+        "releaseDate": "2022-08-13",
+        "retailPrice": 100,
+        "shoe": "New Balance 327",
+        "styleId": "MS327STS",
+        "title": "New Balance 327 Sagan Tosu",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/New-Balance-327-Sagan-Tosu.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660248390",
+            "smallImageUrl": "https://images.stockx.com/images/New-Balance-327-Sagan-Tosu.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660248390",
+            "thumbUrl": "https://images.stockx.com/images/New-Balance-327-Sagan-Tosu.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660248390"
+        }
+    },
+    {
+        "id": "6edec0bf-c026-4d61-bfda-ed48b9d05409",
+        "brand": "adidas",
+        "colorway": "Core Black / Core Black / Shadow Red",
+        "gender": "men",
+        "name": "Fucking Awesome Core Black",
+        "releaseDate": "2022-08-13",
+        "retailPrice": 110,
+        "shoe": "adidas FA Experiment 2",
+        "styleId": "GX4493",
+        "title": "adidas FA Experiment 2 Fucking Awesome Core Black",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/adidas-FA-Experiment-2-Fucking-Awesome-Core-Black.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660248392",
+            "smallImageUrl": "https://images.stockx.com/images/adidas-FA-Experiment-2-Fucking-Awesome-Core-Black.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660248392",
+            "thumbUrl": "https://images.stockx.com/images/adidas-FA-Experiment-2-Fucking-Awesome-Core-Black.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660248392"
+        }
+    },
+    {
+        "id": "8f0a795d-aeb8-4ecf-8322-0edfb556ce0c",
+        "brand": "Jordan",
+        "colorway": "Black/Citrus-Varsity Red",
+        "gender": "men",
+        "name": "Citrus (2022)",
+        "releaseDate": "2022-08-13",
+        "retailPrice": 200,
+        "shoe": "Jordan 7 Retro",
+        "styleId": "CU9307-081",
+        "title": "Jordan 7 Retro Citrus (2022)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-7-Retro-Citrus-2022.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1641240384",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-7-Retro-Citrus-2022.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1641240384",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-7-Retro-Citrus-2022.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1641240384"
+        }
+    },
+    {
+        "id": "b781fcda-51ce-49cb-af26-fa909175d9cc",
+        "brand": "Jordan",
+        "colorway": "Black/Citrus-Varsity Red",
+        "gender": "toddler",
+        "name": "Citrus (2022) (TD)",
+        "releaseDate": "2022-08-13",
+        "retailPrice": 70,
+        "shoe": "Jordan 7 Retro",
+        "styleId": "DJ2776-081",
+        "title": "Jordan 7 Retro Citrus (2022) (TD)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-7-Retro-Citrus-2022-TD.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1656519101",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-7-Retro-Citrus-2022-TD.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1656519101",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-7-Retro-Citrus-2022-TD.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1656519101"
+        }
+    },
+    {
+        "id": "c2959dbd-2d89-4005-8ea5-ce55e37ddc1f",
+        "brand": "New Balance",
+        "colorway": "Brown/Black",
+        "gender": "men",
+        "name": "Brown Black",
+        "releaseDate": "2022-08-13",
+        "retailPrice": 150,
+        "shoe": "New Balance 9060",
+        "styleId": "U9060BRN",
+        "title": "New Balance 9060 Brown Black",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/New-Balance-9060-Brown-Black.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660070886",
+            "smallImageUrl": "https://images.stockx.com/images/New-Balance-9060-Brown-Black.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660070886",
+            "thumbUrl": "https://images.stockx.com/images/New-Balance-9060-Brown-Black.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660070886"
+        }
+    },
+    {
+        "id": "d46c0fd5-6450-4a67-b8d6-f6c07094b436",
+        "brand": "adidas",
+        "colorway": "Dust Sand/Base Green/Hemp",
+        "gender": "men",
+        "name": "Fucking Awesome Dust Sand",
+        "releaseDate": "2022-08-13",
+        "retailPrice": 110,
+        "shoe": "adidas FA Experiment 1",
+        "styleId": "GX6880",
+        "title": "adidas FA Experiment 1 Fucking Awesome Dust Sand",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/adidas-FA-Experiment-1-Fucking-Awesome-Dust-Sand.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660248388",
+            "smallImageUrl": "https://images.stockx.com/images/adidas-FA-Experiment-1-Fucking-Awesome-Dust-Sand.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660248388",
+            "thumbUrl": "https://images.stockx.com/images/adidas-FA-Experiment-1-Fucking-Awesome-Dust-Sand.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660248388"
+        }
+    },
+    {
+        "id": "db34ba38-db50-4010-a3e3-30d847db626d",
+        "brand": "Jordan",
+        "colorway": "Taxi/Black-Sail",
+        "gender": "child",
+        "name": "Yellow Toe (PS)",
+        "releaseDate": "2022-08-13",
+        "retailPrice": 60,
+        "shoe": "Jordan 1 Retro High OG",
+        "styleId": "AQ2664-711",
+        "title": "Jordan 1 Retro High OG Yellow Toe (PS)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Yellow-Toe-PS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660571922",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Yellow-Toe-PS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660571922",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Yellow-Toe-PS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660571922"
+        }
+    },
+    {
+        "id": "e4935159-871b-4b5c-9281-7f0751094326",
+        "brand": "Jordan",
+        "colorway": "Taxi/Black-Sail",
+        "gender": "infant",
+        "name": "Yellow Toe (TD)",
+        "releaseDate": "2022-08-13",
+        "retailPrice": 50,
+        "shoe": "Jordan 1 Retro High OG",
+        "styleId": "AQ2665-711",
+        "title": "Jordan 1 Retro High OG Yellow Toe (TD)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Yellow-Toe-TD.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660570909",
+            "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Yellow-Toe-TD.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660570909",
+            "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Yellow-Toe-TD.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660570909"
+        }
+    },
+    {
+        "id": "02870522-6c2f-4db4-b398-2e3da6b001df",
+        "brand": "adidas",
+        "colorway": "Brown Desert/Dust Cargo/Cream White",
+        "gender": "men",
+        "name": "Brown Desert Dust Cargo",
+        "releaseDate": "2022-08-12",
+        "retailPrice": 120,
+        "shoe": "adidas Stapfen SPZL",
+        "styleId": "GX3820",
+        "title": "adidas Stapfen SPZL Brown Desert Dust Cargo",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/adidas-Stappen-SPZL-Brown-Desert-Dust-Cargo.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660070889",
+            "smallImageUrl": "https://images.stockx.com/images/adidas-Stappen-SPZL-Brown-Desert-Dust-Cargo.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660070889",
+            "thumbUrl": "https://images.stockx.com/images/adidas-Stappen-SPZL-Brown-Desert-Dust-Cargo.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660070889"
+        }
+    },
+    {
+        "id": "1511216b-86d6-4738-a9e4-e28f6a7a965a",
+        "brand": "New Balance",
+        "colorway": "Marblehead/Moon Shadow",
+        "gender": "men",
+        "name": "Gore-Tex Marblehead Moon Shadow",
+        "releaseDate": "2022-08-12",
+        "retailPrice": 180,
+        "shoe": "New Balance 2002R",
+        "styleId": "M2002RXB",
+        "title": "New Balance 2002R Gore-Tex Marblehead Moon Shadow",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/New-Balance-2002R-Gore-Tex-Light-Grey.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660202692",
+            "smallImageUrl": "https://images.stockx.com/images/New-Balance-2002R-Gore-Tex-Light-Grey.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660202692",
+            "thumbUrl": "https://images.stockx.com/images/New-Balance-2002R-Gore-Tex-Light-Grey.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660202692"
+        }
+    },
+    {
+        "id": "2530e744-4f73-4a72-ad5a-ac629e43430b",
+        "brand": "adidas",
+        "colorway": "Chalk White/Core Black/Chalk White",
+        "gender": "men",
+        "name": "Chalk White",
+        "releaseDate": "2022-08-12",
+        "retailPrice": 50,
+        "shoe": "adidas Adilette SPZL Slide",
+        "styleId": "GW8793",
+        "title": "adidas Adilette SPZL Slide Chalk White",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/adidas-Adilette-SPZL-Slide-Chalk-White.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660070891",
+            "smallImageUrl": "https://images.stockx.com/images/adidas-Adilette-SPZL-Slide-Chalk-White.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660070891",
+            "thumbUrl": "https://images.stockx.com/images/adidas-Adilette-SPZL-Slide-Chalk-White.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660070891"
+        }
+    },
+    {
+        "id": "2c328ada-d01a-4737-9788-2fe3d6e139c1",
+        "brand": "New Balance",
+        "colorway": "Marigold/Black",
+        "gender": "men",
+        "name": "MiUSA Marigold",
+        "releaseDate": "2022-08-12",
+        "retailPrice": 195,
+        "shoe": "New Balance 990v2",
+        "styleId": "M990AI2",
+        "title": "New Balance 990v2 MiUSA Marigold",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/New-Balance-990v2-MiUSA-Marigold.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660070886",
+            "smallImageUrl": "https://images.stockx.com/images/New-Balance-990v2-MiUSA-Marigold.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660070886",
+            "thumbUrl": "https://images.stockx.com/images/New-Balance-990v2-MiUSA-Marigold.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660070886"
+        }
+    },
+    {
+        "id": "41db5e3a-5bba-42b3-97ea-d221f9047b81",
+        "brand": "New Balance",
+        "colorway": "Magnet/Mood Indigo",
+        "gender": "men",
+        "name": "Gore-Tex Magnet Mood Indigo",
+        "releaseDate": "2022-08-12",
+        "retailPrice": 180,
+        "shoe": "New Balance 2002R",
+        "styleId": "M2002RXA",
+        "title": "New Balance 2002R Gore-Tex Magnet Mood Indigo",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/New-Balance-2002R-Gore-Tex-Dark-Grey.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659852689",
+            "smallImageUrl": "https://images.stockx.com/images/New-Balance-2002R-Gore-Tex-Dark-Grey.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659852689",
+            "thumbUrl": "https://images.stockx.com/images/New-Balance-2002R-Gore-Tex-Dark-Grey.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659852689"
+        }
+    },
+    {
+        "id": "56088a8f-9418-4b48-af4f-4d4f870fe092",
+        "brand": "adidas",
+        "colorway": "Cloud White/Cloud White/Off White",
+        "gender": "men",
+        "name": "Cloud White",
+        "releaseDate": "2022-08-12",
+        "retailPrice": 120,
+        "shoe": "adidas Yabisah SPZL",
+        "styleId": "GZ4292",
+        "title": "adidas Yabisah SPZL Cloud White",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/adidas-Yabisah-SPZL-Cloud-White.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660124159",
+            "smallImageUrl": "https://images.stockx.com/images/adidas-Yabisah-SPZL-Cloud-White.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660124159",
+            "thumbUrl": "https://images.stockx.com/images/adidas-Yabisah-SPZL-Cloud-White.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660124159"
+        }
+    },
+    {
+        "id": "5ae98ec9-c577-436a-91d5-ca1714ce0991",
+        "brand": "New Balance",
+        "colorway": "Rain Cloud/Angora/Sweet Caramel",
+        "gender": "men",
+        "name": "Rain Cloud",
+        "releaseDate": "2022-08-12",
+        "retailPrice": 130,
+        "shoe": "New Balance 2002R",
+        "styleId": "M2002RSA",
+        "title": "New Balance 2002R Rain Cloud",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/New-Balance-2002R-Rain-Cloud-V2.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659852690",
+            "smallImageUrl": "https://images.stockx.com/images/New-Balance-2002R-Rain-Cloud-V2.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659852690",
+            "thumbUrl": "https://images.stockx.com/images/New-Balance-2002R-Rain-Cloud-V2.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659852690"
+        }
+    },
+    {
+        "id": "5c5015a9-9025-48a4-bf1f-47630fb4e959",
+        "brand": "New Balance",
+        "colorway": "Grey/Indigo",
+        "gender": "men",
+        "name": "Grey Indigo",
+        "releaseDate": "2022-08-12",
+        "retailPrice": 150,
+        "shoe": "New Balance 1906R",
+        "styleId": "M1906RB",
+        "title": "New Balance 1906R Grey Indigo",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/New-Balance-1906R-Grey-Indigo.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659852688",
+            "smallImageUrl": "https://images.stockx.com/images/New-Balance-1906R-Grey-Indigo.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659852688",
+            "thumbUrl": "https://images.stockx.com/images/New-Balance-1906R-Grey-Indigo.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1659852688"
+        }
+    },
+    {
+        "id": "bf93831f-ad86-432b-a5da-87709ac7c59f",
+        "brand": "New Balance",
+        "colorway": "Blue/Red",
+        "gender": "unisex",
+        "name": "FC Tokyo",
+        "releaseDate": "2022-08-12",
+        "retailPrice": 100,
+        "shoe": "New Balance 327",
+        "styleId": "MS327TKO",
+        "title": "New Balance 327 FC Tokyo",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/New-Balance-327-FC-Tokyo.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660248387",
+            "smallImageUrl": "https://images.stockx.com/images/New-Balance-327-FC-Tokyo.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660248387",
+            "thumbUrl": "https://images.stockx.com/images/New-Balance-327-FC-Tokyo.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660248387"
+        }
+    },
+    {
+        "id": "d6430572-c5b4-4f66-b1ad-8753d1f669ce",
+        "brand": "Nike",
+        "colorway": "Cargo Khaki/Limestone-Sesame-Black-Volt",
+        "gender": "men",
+        "name": "Crater Cargo Khaki Limestone",
+        "releaseDate": "2022-08-12",
+        "retailPrice": 135,
+        "shoe": "Nike Air Huarache",
+        "styleId": "DM0863-300",
+        "title": "Nike Air Huarache Crater Cargo Khaki Limestone",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Nike-Air-Huarache-Next-Nature-Tan-Olive.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1652990426",
+            "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Huarache-Next-Nature-Tan-Olive.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1652990426",
+            "thumbUrl": "https://images.stockx.com/images/Nike-Air-Huarache-Next-Nature-Tan-Olive.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1652990426"
+        }
+    },
+    {
+        "id": "e46b52c1-cb6c-47e5-934e-a94c9d0f1067",
+        "brand": "adidas",
+        "colorway": "Noble Maroon/Bright Yellow/Night Navy",
+        "gender": "men",
+        "name": "Noble Maroon Bright Yellow",
+        "releaseDate": "2022-08-12",
+        "retailPrice": 110,
+        "shoe": "adidas Warszawa SPZL",
+        "styleId": "GX3819",
+        "title": "adidas Warszawa SPZL Noble Maroon Bright Yellow",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/adidas-Warszawa-SPZL-Noble-Maroon-Bright-Yellow.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660124157",
+            "smallImageUrl": "https://images.stockx.com/images/adidas-Warszawa-SPZL-Noble-Maroon-Bright-Yellow.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660124157",
+            "thumbUrl": "https://images.stockx.com/images/adidas-Warszawa-SPZL-Noble-Maroon-Bright-Yellow.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660124157"
+        }
+    },
+    {
+        "id": "e680ba4c-205b-4e2e-8f32-3f6c9c7680d4",
+        "brand": "New Balance",
+        "colorway": "White/Black-Metallic Gold",
+        "gender": "men",
+        "name": "White Gold",
+        "releaseDate": "2022-08-12",
+        "retailPrice": 120,
+        "shoe": "New Balance 1906R",
+        "styleId": "M1906RA",
+        "title": "New Balance 1906R White Gold",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/New-Balance-1906R-White-Gold-Updated.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660061831",
+            "smallImageUrl": "https://images.stockx.com/images/New-Balance-1906R-White-Gold-Updated.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660061831",
+            "thumbUrl": "https://images.stockx.com/images/New-Balance-1906R-White-Gold-Updated.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660061831"
+        }
+    },
+    {
+        "id": "5aee1f44-5325-46bb-ac1b-a7e2b5431cec",
+        "brand": "New Balance",
+        "colorway": "Dawn Glow/Raw Cashew",
+        "gender": "child",
+        "name": "Joe Freshgoods Conversations Amongst Us (GS))",
+        "releaseDate": "2022-08-11",
+        "retailPrice": 140,
+        "shoe": "New Balance KAWHI 2",
+        "styleId": "GBKLSBM2",
+        "title": "New Balance KAWHI 2 Joe Freshgoods Conversations Amongst Us (GS))",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/New-Balance-KAWHI-2-Joe-Freshgoods-Conversations-Amongst-Us-GS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660124157",
+            "smallImageUrl": "https://images.stockx.com/images/New-Balance-KAWHI-2-Joe-Freshgoods-Conversations-Amongst-Us-GS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660124157",
+            "thumbUrl": "https://images.stockx.com/images/New-Balance-KAWHI-2-Joe-Freshgoods-Conversations-Amongst-Us-GS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660124157"
+        }
+    },
+    {
+        "id": "7158ebb4-7749-4556-b50d-619f331af0f4",
+        "brand": "New Balance",
+        "colorway": "Sea Salt/Dawn Glow",
+        "gender": "men",
+        "name": "Joe Freshgoods Conversations Amongst Us",
+        "releaseDate": "2022-08-11",
+        "retailPrice": 90,
+        "shoe": "New Balance 574",
+        "styleId": "U574BH2",
+        "title": "New Balance 574 Joe Freshgoods Conversations Amongst Us",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/New-Balance-574-Joe-Freshgoods-Conversations-Amongst-Us.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660200812",
+            "smallImageUrl": "https://images.stockx.com/images/New-Balance-574-Joe-Freshgoods-Conversations-Amongst-Us.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660200812",
+            "thumbUrl": "https://images.stockx.com/images/New-Balance-574-Joe-Freshgoods-Conversations-Amongst-Us.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660200812"
+        }
+    },
+    {
+        "id": "7e19959d-b108-4384-90b0-dd43202f7daf",
+        "brand": "Nike",
+        "colorway": "Black/Varsity Royal-White",
+        "gender": "men",
+        "name": "Orlando (2022)",
+        "releaseDate": "2022-08-11",
+        "retailPrice": 170,
+        "shoe": "Nike Air Max Penny 1",
+        "styleId": "DN2487-001",
+        "title": "Nike Air Max Penny 1 Orlando (2022)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/Nike-Air-Max-Penny-1-Orlando-2022-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1657005113",
+            "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Max-Penny-1-Orlando-2022-Product.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1657005113",
+            "thumbUrl": "https://images.stockx.com/images/Nike-Air-Max-Penny-1-Orlando-2022-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1657005113"
+        }
+    },
+    {
+        "id": "91fa5cb5-3fd5-4ef1-9e60-404d0a1f0aa4",
+        "brand": "New Balance",
+        "colorway": "Sea Salt/Dawn Glow",
+        "gender": "toddler",
+        "name": "Joe Freshgoods Conversations Amongst Us (TD)",
+        "releaseDate": "2022-08-11",
+        "retailPrice": 55,
+        "shoe": "New Balance 574",
+        "styleId": "ID574BH1",
+        "title": "New Balance 574 Joe Freshgoods Conversations Amongst Us (TD)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/New-Balance-574-Joe-Freshgoods-Conversations-Amongst-Us-TD.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660124159",
+            "smallImageUrl": "https://images.stockx.com/images/New-Balance-574-Joe-Freshgoods-Conversations-Amongst-Us-TD.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660124159",
+            "thumbUrl": "https://images.stockx.com/images/New-Balance-574-Joe-Freshgoods-Conversations-Amongst-Us-TD.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660124159"
+        }
+    },
+    {
+        "id": "dab09870-2ea4-4df1-addc-8f62cb1d7c4b",
+        "brand": "New Balance",
+        "colorway": "Sea Salt/Dawn Glow",
+        "gender": "preschool",
+        "name": "Joe Freshgoods Conversations Amongst Us (PS)",
+        "releaseDate": "2022-08-11",
+        "retailPrice": 65,
+        "shoe": "New Balance 574",
+        "styleId": "PC574BH1",
+        "title": "New Balance 574 Joe Freshgoods Conversations Amongst Us (PS)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/New-Balance-574-Joe-Freshgoods-Conversations-Amongst-Us-PS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660124160",
+            "smallImageUrl": "https://images.stockx.com/images/New-Balance-574-Joe-Freshgoods-Conversations-Amongst-Us-PS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660124160",
+            "thumbUrl": "https://images.stockx.com/images/New-Balance-574-Joe-Freshgoods-Conversations-Amongst-Us-PS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660124160"
+        }
+    },
+    {
+        "id": "ec87e7ed-b4d0-45ad-850c-63871513335e",
+        "brand": "New Balance",
+        "colorway": "Dawn Glow/Raw Cashew",
+        "gender": "women",
+        "name": "Joe Freshgoods Conversations Amongst Us (W)",
+        "releaseDate": "2022-08-11",
+        "retailPrice": 160,
+        "shoe": "New Balance KAWHI 2",
+        "styleId": "WBKLSBM2",
+        "title": "New Balance KAWHI 2 Joe Freshgoods Conversations Amongst Us (W)",
+        "year": 2022,
+        "media": {
+            "imageUrl": "https://images.stockx.com/images/New-Balance-KAWHI-2-Joe-Freshgoods-Conversations-Amongst-Us-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660124160",
+            "smallImageUrl": "https://images.stockx.com/images/New-Balance-KAWHI-2-Joe-Freshgoods-Conversations-Amongst-Us-W.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660124160",
+            "thumbUrl": "https://images.stockx.com/images/New-Balance-KAWHI-2-Joe-Freshgoods-Conversations-Amongst-Us-W.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1660124160"
+        }
+    }
+]
