@@ -3,7 +3,7 @@ import Image from "next/image";
 function StoreItemBuilder(props) {
   const newShoe = props.item;
   return (
-    <div key={newShoe.id}>
+    <div>
       <div>
         <Image src={newShoe.media.imageUrl} width={50} height={50} alt="Shoe" />
       </div>

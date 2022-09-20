@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import StoreItemBuilder from "../components/StorePage/StoreItemBuilder";
-import ShoeData from "../ShoeData.json";
 import Footer from "../components/Footer/Footer";
 
-function Shoepreview({ data }) {
+function ShoePreview({ data }) {
   const [Shoes, setShoes] = useState(null);
 
   useEffect(() => {
@@ -13,8 +12,12 @@ function Shoepreview({ data }) {
     <section>
       <div>
         <div className="grid grid-cols-4 gap-4">
-          {Shoes?.map((item) => {
-            return item.media.imageUrl && <StoreItemBuilder item={item} />;
+          {Shoes?.shoes.map((item) => {
+            return (
+              item.media.imageUrl && (
+                <StoreItemBuilder item={item} key={item.id} />
+              )
+            );
           })}
           <h1>check your internet connection Refresh your page</h1>
         </div>
@@ -24,17 +27,17 @@ function Shoepreview({ data }) {
   );
 }
 
-export default Shoepreview;
+export default ShoePreview;
 export async function getStaticProps(context) {
-  const res = await ShoeData;
-
-  if (!res) {
+  const res = await fetch("http://localhost:3000/api/shoesapi");
+  const data = await res.json();
+  if (!data) {
     return {
       notFound: true,
     };
   }
 
   return {
-    props: { data: res },
+    props: { data: data },
   };
 }
