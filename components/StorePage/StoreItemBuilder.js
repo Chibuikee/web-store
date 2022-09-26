@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 function StoreItemBuilder(props) {
   const newShoe = props.item;
   return (
@@ -15,9 +16,11 @@ function StoreItemBuilder(props) {
       <h5>{newShoe.brand}</h5>
       <h5>{newShoe.name}</h5>
       <h5>{newShoe.retailPrice}</h5>
-      <button className="bg-black text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-        view product
-      </button>
+      <Link href={"/Shoepreview/" + newShoe.id}>
+        <button className="bg-black text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+          view product
+        </button>
+      </Link>
     </div>
   );
 }

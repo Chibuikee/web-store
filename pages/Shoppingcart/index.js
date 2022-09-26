@@ -1,29 +1,30 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { addToCart } from "../../slices/Cart";
-import storeitems from "../../ShoesData";
+import { removeFromCart } from "../../slices/Cart";
 import CartBuilder from "../../components/cartBuilder/cartBuilder";
 
 function Shoppingcart() {
-  const shoet = storeitems[3];
   const CartData = useSelector((state) => state.cart);
+
   // console.log(count);
   const dispatch = useDispatch();
-
+  const HandleDelete = (id) => {
+    return dispatch(removeFromCart(id));
+  };
   return (
     <section>
       <div>
         {CartData.map((data) => (
-          <CartBuilder data={data} key={data.id} />
+          <CartBuilder
+            cartData={{
+              Shoes: data,
+              HandleDelete,
+            }}
+            key={data.id}
+          />
         ))}
         <button onClick={() => dispatch(addToCart(shoet))}>addToCart</button>
         <h1>this is the cart page </h1>
-        <button
-          aria-label="Decrement value"
-          onClick={() => dispatch(addToCart(shoet))}
-        >
-          Decrement
-        </button>
       </div>
     </section>
   );

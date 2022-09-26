@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-function cartBuilder({ data }) {
-  const Shoes = data;
-  console.log(Shoes);
+
+function cartBuilder({ cartData }) {
+  const { Shoes, HandleDelete } = cartData;
   return (
     <>
       {Shoes && Shoes.media.imageUrl && (
@@ -18,6 +18,12 @@ function cartBuilder({ data }) {
           <h5>{Shoes.brand}</h5>
           <h5>{Shoes.name}</h5>
           <h5>{Shoes.retailPrice}</h5>
+          <button
+            aria-label="Decrement value"
+            onClick={() => HandleDelete({ id: Shoes.id })}
+          >
+            Remove
+          </button>
         </div>
       )}
     </>
