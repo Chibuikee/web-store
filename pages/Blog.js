@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import StoreItemBuilder from "../components/StorePage/StoreItemBuilder";
-import Footer from "../components/Footer/Footer";
 import ShoesData from "../ShoesData";
 import Layout1 from "../components/Layout/Layout1";
 

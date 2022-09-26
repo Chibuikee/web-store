@@ -18,9 +18,7 @@ function Wishlist() {
   return (
     <Layout1>
       <section>
-        <h1 className="text-4xl font-bold">WISHLIST</h1>/*Please modify every
-        tailwind class to fit design,css written by me is just for testing
-        purpose */
+        <h1 className="text-4xl font-bold">WISHLIST</h1>
         <div>
           {wishList.map((data) => (
             <Wishesbuilder

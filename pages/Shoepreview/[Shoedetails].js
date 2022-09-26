@@ -15,7 +15,7 @@ function Shoedetails() {
   const fetchedShoeDetails = mainData.find((item) => item.id === productId);
   useEffect(() => {
     setShoes(fetchedShoeDetails);
-  }, []);
+  }, [fetchedShoeDetails]);
 
   return (
     <Layout1>
