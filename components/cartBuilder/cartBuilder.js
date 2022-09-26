@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 
 function cartBuilder({ cartData }) {
-  const { Shoes, HandleDelete } = cartData;
+  const { Shoes, HandleDelete, HandleReduce, HandleIncrement } = cartData;
   return (
     <>
-      {Shoes && Shoes.media.imageUrl && (
+      {Shoes && Shoes.media?.imageUrl && (
         <div className="bg-[#b1b6bb]   ">
           <div>
             <Image
@@ -24,6 +24,21 @@ function cartBuilder({ cartData }) {
             onClick={() => HandleDelete({ id: Shoes.id })}
           >
             Remove
+          </button>
+          <button
+            className="p-2 border border-solid border-black bg-[red]"
+            aria-label="Decrement value"
+            onClick={() => HandleIncrement({ id: Shoes.id })}
+          >
+            Increment
+          </button>
+
+          <button
+            className="p-2 border border-solid border-black bg-[red]"
+            aria-label="Decrement value"
+            onClick={() => HandleReduce({ id: Shoes.id })}
+          >
+            Decrement
           </button>
         </div>
       )}
