@@ -3,9 +3,14 @@ import Image from "next/image";
 function StoreItemBuilder(props) {
   const newShoe = props.item;
   return (
-    <div>
+    <div className="bg-[#b1b6bb] grid justify-center border border-solid border-black">
       <div>
-        <Image src={newShoe.media.imageUrl} width={50} height={50} alt="Shoe" />
+        <Image
+          src={newShoe.media.imageUrl}
+          width={100}
+          height={100}
+          alt="Shoe"
+        />
       </div>
       <h5>{newShoe.brand}</h5>
       <h5>{newShoe.name}</h5>

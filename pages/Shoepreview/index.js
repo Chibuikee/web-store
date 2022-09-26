@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
-import StoreItemBuilder from "../components/StorePage/StoreItemBuilder";
-import Footer from "../components/Footer/Footer";
+import StoreItemBuilder from "../../components/StorePage/StoreItemBuilder";
+import Footer from "../../components/Footer/Footer";
+import ShoesData from "../../ShoesData";
+// import axios from "axios";
 
 function ShoePreview({ data }) {
   const [Shoes, setShoes] = useState(null);
@@ -10,9 +12,9 @@ function ShoePreview({ data }) {
   }, []);
   return (
     <section>
-      <div>
+      <div className="max-w-[1180px] mx-auto">
         <div className="grid grid-cols-4 gap-4">
-          {Shoes?.shoes.map((item) => {
+          {Shoes?.map((item) => {
             return (
               item.media.imageUrl && (
                 <StoreItemBuilder item={item} key={item.id} />
@@ -29,15 +31,7 @@ function ShoePreview({ data }) {
 
 export default ShoePreview;
 export async function getStaticProps(context) {
-  const res = await fetch("http://localhost:3000/api/shoesapi");
-  const data = await res.json();
-  if (!data) {
-    return {
-      notFound: true,
-    };
-  }
-
   return {
-    props: { data: data },
+    props: { data: ShoesData },
   };
 }
