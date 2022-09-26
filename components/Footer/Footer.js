@@ -3,7 +3,7 @@ import Link from "next/link";
 import { links, FooterLinks, footerContact } from "./data";
 function Footer() {
   return (
-    <section className="bg-black">
+    <section className="bg-black mt-20">
       <div className="max-w-[1180px] mx-auto text-[#FFFFFF]">
         <div className="flex">
           <div className="basis-[1/4]">

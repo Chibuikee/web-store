@@ -9,10 +9,15 @@ export const wishListSlice = createSlice({
   initialState,
   reducers: {
     AddToWishList: (state, action) => {
-      return [action.payload];
+      const insideList = findItemInCart(state, action.payload);
+      if (!insideList) {
+        return [...state, action.payload];
+      } else {
+        return state;
+      }
     },
     RemoveFromWishList: (state, action) => {
-      const insideList = findItemInCart(action.payload);
+      const insideList = findItemInCart(state, action.payload);
       if (insideList) {
         const udpatedList = state.filter(
           (item) => item.id !== action.payload.id

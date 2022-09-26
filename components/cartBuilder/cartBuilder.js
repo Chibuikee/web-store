@@ -6,7 +6,7 @@ function cartBuilder({ cartData }) {
   return (
     <>
       {Shoes && Shoes.media.imageUrl && (
-        <div className="bg-[#b1b6bb] grid justify-center border border-solid border-black">
+        <div className="bg-[#b1b6bb]   ">
           <div>
             <Image
               src={Shoes.media.imageUrl}
@@ -19,6 +19,7 @@ function cartBuilder({ cartData }) {
           <h5>{Shoes.name}</h5>
           <h5>{Shoes.retailPrice}</h5>
           <button
+            className="p-2 border border-solid border-black bg-[red]"
             aria-label="Decrement value"
             onClick={() => HandleDelete({ id: Shoes.id })}
           >
