@@ -1,8 +1,11 @@
 import React from "react";
+import Link from "next/link";
 import { useSelector, useDispatch } from "react-redux";
 import { addToCart, removeFromCart, reduceQtyInCart } from "../../slices/Cart";
 import CartBuilder from "../../components/cartBuilder/cartBuilder";
 import Layout1 from "../../components/Layout/Layout1";
+import CartTotal from "../../components/CheckOutTotaling/CartTotal";
+import Discount from "../../components/CheckOutTotaling/Discount";
 
 function Shoppingcart() {
   const CartData = useSelector((state) => state.cart);
@@ -34,13 +37,38 @@ function Shoppingcart() {
             />
           ))}
           <div>
+            <div>
+              {
+                <CartTotal
+                  cartData={{
+                    CartData,
+                  }}
+                />
+              }
+            </div>
+            <div>
+              <Discount />
+            </div>
             {CartData.length === 0 && (
-              <h1 className="text-3xl font-bold">
-                YOUR SHOPPING CART IS EMPTY
-              </h1>
+              <div>
+                <h1 className="text-3xl font-extrabold text-center text-[red]">
+                  YOUR SHOPPING CART IS EMPTY
+                </h1>
+                <p className="text-center">
+                  To see which products are in cart, go to shop and click on
+                  `Add to cart` button.
+                  <span className="block">
+                    For now there is no product added into the cart
+                  </span>
+                </p>
+                <Link className="" href="/" passHref>
+                  <button className="bg-black text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                    Back to shop
+                  </button>
+                </Link>
+              </div>
             )}
           </div>
-          <h1>this is the Cart page </h1>
         </div>
       </section>
     </Layout1>

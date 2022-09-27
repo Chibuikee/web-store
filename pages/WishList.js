@@ -4,6 +4,7 @@ import { addToCart } from "../slices/Cart";
 import { RemoveFromWishList } from "../slices/Wishlist";
 import Wishesbuilder from "../components/Wishesbuilder";
 import Layout1 from "../components/Layout/Layout1";
+import Link from "next/link";
 function Wishlist() {
   const { wishList } = useSelector((state) => state);
 
@@ -32,6 +33,12 @@ function Wishlist() {
           ))}
 
           <h1>this is the Wish list page </h1>
+          <Link href="/" passHref>
+            <button className="">Back to shop</button>
+          </Link>
+          {wishList.length === 0 && (
+            <h1 className="text-3xl font-bold">YOUR WISHLIST IS EMPTY</h1>
+          )}
         </div>
       </section>
     </Layout1>

@@ -7,6 +7,13 @@ function cartBuilder({ cartData }) {
     <>
       {Shoes && Shoes.media?.imageUrl && (
         <div className="bg-[#b1b6bb]   ">
+          <button
+            className="p-2 border border-solid border-black bg-[red]"
+            aria-label="Decrement value"
+            onClick={() => HandleDelete({ id: Shoes.id })}
+          >
+            Remove
+          </button>
           <div>
             <Image
               src={Shoes.media.imageUrl}
@@ -18,28 +25,24 @@ function cartBuilder({ cartData }) {
           <h5>{Shoes.brand}</h5>
           <h5>{Shoes.name}</h5>
           <h5>{Shoes.retailPrice}</h5>
-          <button
-            className="p-2 border border-solid border-black bg-[red]"
-            aria-label="Decrement value"
-            onClick={() => HandleDelete({ id: Shoes.id })}
-          >
-            Remove
-          </button>
-          <button
-            className="p-2 border border-solid border-black bg-[red]"
-            aria-label="Decrement value"
-            onClick={() => HandleIncrement({ id: Shoes.id })}
-          >
-            Increment
-          </button>
 
-          <button
-            className="p-2 border border-solid border-black bg-[red]"
-            aria-label="Decrement value"
-            onClick={() => HandleReduce({ id: Shoes.id })}
-          >
-            Decrement
-          </button>
+          <div>
+            <button
+              className="p-2 border border-solid border-black bg-[red]"
+              aria-label="Decrement value"
+              onClick={() => HandleIncrement({ id: Shoes.id })}
+            >
+              Increment
+            </button>
+            <span>{Shoes.qty}</span>
+            <button
+              className="p-2 border border-solid border-black bg-[red]"
+              aria-label="Decrement value"
+              onClick={() => HandleReduce({ id: Shoes.id })}
+            >
+              Decrement
+            </button>
+          </div>
         </div>
       )}
     </>
