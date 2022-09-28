@@ -28,7 +28,7 @@ function Blog({ data }) {
 
 export default Blog;
 export async function getStaticProps(context) {
-  const res = await axios.get("https://musknet.vercel.app/db/datas.json");
+  const res = await axios.get("/db/datas.json");
   return {
     props: { data: res.data },
   };
