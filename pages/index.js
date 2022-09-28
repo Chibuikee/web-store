@@ -1,10 +1,9 @@
-// import Footer from "../components/Footer/Footer";
-// import axios from "axios";
+import axios from "axios";
 import React from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { server } from "../config";
+import { useSelector } from "react-redux";
 import { FetchedAllItems } from "../slices/StoreData";
 import { wrapper } from "../store";
-import ShoesData from "../ShoesData";
 import StoreItemBuilder from "../components/StorePage/StoreItemBuilder";
 import Link from "next/link";
 import Layout1 from "../components/Layout/Layout1";
@@ -39,6 +38,7 @@ export default function Home() {
 }
 export const getServerSideProps = wrapper.getServerSideProps(
   (store) => async () => {
-    store.dispatch(FetchedAllItems(ShoesData));
+    const res = await axios.get(`${server}/db/datas.json`);
+    store.dispatch(FetchedAllItems(res.data));
   }
 );

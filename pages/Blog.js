@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
+import axios from "axios";
 import StoreItemBuilder from "../components/StorePage/StoreItemBuilder";
-import ShoesData from "../ShoesData";
+import { server } from "../config";
 import Layout1 from "../components/Layout/Layout1";
 
 function Blog({ data }) {
@@ -27,7 +28,8 @@ function Blog({ data }) {
 
 export default Blog;
 export async function getStaticProps(context) {
+  const res = await axios.get(`${server}/db/datas.json`);
   return {
-    props: { data: ShoesData },
+    props: { data: res.data },
   };
 }
