@@ -28,7 +28,7 @@ function Blog({ data }) {
 
 export default Blog;
 export async function getStaticProps(context) {
-  const res = await axios.get("/db/datas.json");
+  const res = await axios.get("./public/db/datas.json");
   return {
     props: { data: res.data },
   };

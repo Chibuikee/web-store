@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  target: "serverless",
+  experimental: { nftTracing: true },
   reactStrictMode: true,
   swcMinify: true,
   images: {

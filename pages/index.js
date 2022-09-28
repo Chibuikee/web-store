@@ -38,7 +38,7 @@ export default function Home() {
 }
 export const getServerSideProps = wrapper.getServerSideProps(
   (store) => async () => {
-    const res = await axios.get("/db/datas.json");
+    const res = await axios.get("./public/db/datas.json");
     store.dispatch(FetchedAllItems(res.data));
   }
 );
