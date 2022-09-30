@@ -5,7 +5,7 @@ function Footer() {
   return (
     <section className="bg-black mt-20">
       <div className="max-w-[1180px] mx-auto text-[#FFFFFF]">
-        <div className="flex">
+        <div className="md:flex ">
           <div className="basis-[1/4]">
             <h3>Musknet</h3>
             <p>
@@ -33,15 +33,15 @@ function Footer() {
               ))}
             </ul>
           </div>
-          <div className="flex justify-between basis-3/4">
+          <div className="md:flex justify-between basis-3/4">
             {FooterLinks}
             {footerContact}
           </div>
         </div>
-        <div className="bg-[#D93434] w-[80%] h-[1px] mx-auto"></div>
-        <div className="flex px-7 justify-between items-center font-sans py-4 text-white mx-auto max-w-[960px] lg:max-w-[1280px] ">
+        <div className="bg-[#D93434] max-w-[80%] h-[1px] mx-auto"></div>
+        <div className="flex px-7 justify-between items-center font-sans py-4 text-white mx-auto md:max-w-[960px] lg:max-w-[1280px] ">
           <p className="copy-rights text-muted">COPYRIGHT 2022 © Musknet</p>
-          DESIGN RIGHTS NOT RESERVED
+          DESIGN RIGHTS NOT RESERVED!
         </div>
       </div>
     </section>

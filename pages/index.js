@@ -27,14 +27,6 @@ export default function Home() {
     <Layout1 title="Home Page">
       <section className="">
         <div>
-          <Link href="Shoppingcart" passHref>
-            <h1 className="">CART</h1>
-          </Link>
-          <Link href="Wishlist" passHref>
-            <h1 className="">WishList</h1>
-          </Link>
-        </div>
-        <div>
           <h3>SHOP BY CATEGORIES</h3>
           <h6>Pick a category you need</h6>
           <div className="flex justify-between">
@@ -53,7 +45,7 @@ export default function Home() {
           </div>
         </div>
         <h1>OUR PRODUCTS</h1>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-4">
           {selectedcategory?.slice(0, Amount ? undefined : 9).map((item) => {
             return item && <StoreItemBuilder item={item} key={item.id} />;
           })}
