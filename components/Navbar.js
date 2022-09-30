@@ -4,7 +4,7 @@ import { FiSearch, FiHeart, FiShoppingCart } from "react-icons/fi";
 
 function Navbar() {
   return (
-    <nav class="px-2 bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+    <nav class="px-2  border-gray-200 dark:border-gray-700">
       <div class="container md:flex flex-wrap justify-between items-center mx-auto">
         <div className="self-center basis-[10%]">
           <Link href="/">
