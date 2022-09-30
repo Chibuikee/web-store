@@ -1,0 +1,42 @@
+[
+    {
+        "heading": "Is there a minimum order?",
+        "text": "No, you can order as little as 1 shoe! There is a delivery charge for orders under £120 (see Delivery section below)"
+    },
+    {
+        "heading": "When will my order be confirmed and my card charged?",
+        "text": "You will first receive an automatic order acknowledgement email. When we have finished processing your order, we send you a second email. We only charge your card when your order is confirmed."
+    },
+    {
+        "heading": "Can I change or cancel my order before it`s despatched?",
+        "text": "If you want to change or cancel your order please contact us as soon as possible. Once you have received your confirmation email we may have to charge you an admin fee"
+    },
+    {
+        "heading": "Do you give a discount for large orders?",
+        "text": "We are a wholesaler and always welcome large orders! We would be very happy to give discounts for special orders. Don`t be shy to give us a call!"
+    },
+    {
+        "heading": "Do you offer same day delivery?",
+        "text": "Only for London postcodes deliveries and subject to availability. We need to receive your order by 10am. The charge for this is £25."
+    },
+    {
+        "heading": "Can I find out at what time my order will be delivered?",
+        "text": "You can request a 3 hour-time-slot for London and AM or PM delivery for outside London, which we will confirm to you."
+    },
+    {
+        "heading": "How can I track my order?",
+        "text": "It is not yet possible to track your order online. If you leave your contact number in the delivery instructions, the driver will be able to contact you to give you an ETA. Alternatively, please get in touch with us"
+    },
+    {
+        "heading": "My order arrived damaged. What do I do?",
+        "text": "If any shoes arrive damaged, please either refuse the delivery or note the damage with the driver before signing the ePod on his electronic device. Contact us immediately so we can arrange a refund for you or resend the order."
+    },
+    {
+        "heading": "Wine was missing from my order or the wrong wine was delivered. What can I do?",
+        "text": "Please highlight the problem on the driver`s ePod before signing it. Contact us immediately so we can arrange a refund for the missing shoes or resend the correct shoe."
+    },
+    {
+        "heading": "Can my shoe be in gift packs?",
+        "text": "Some of our wines on our website come with gift packs. These feature in the packaging section"
+    }
+]

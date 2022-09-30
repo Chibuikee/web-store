@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Footer from "../../components/Footer/Footer";
 import { useRouter } from "next/router";
 import { useSelector, useDispatch } from "react-redux";
 import { addToCart } from "../../slices/Cart";

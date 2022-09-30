@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+// import axios from "axios";
+// import path from "path"
 import StoreItemBuilder from "../components/StorePage/StoreItemBuilder";
-import { server } from "../config";
+// import { server } from "../config";
 import Layout1 from "../components/Layout/Layout1";
+import ShoeDB from "../Resources/ShoeDB.json";
 
 function Blog({ data }) {
   const [Shoes, setShoes] = useState(null);
@@ -28,8 +30,8 @@ function Blog({ data }) {
 
 export default Blog;
 export async function getStaticProps(context) {
-  const res = await axios.get("./public/db/datas.json");
+  // const res = await axios.get(`${server}/db/datas.json`);
   return {
-    props: { data: res.data },
+    props: { data: ShoeDB },
   };
 }
