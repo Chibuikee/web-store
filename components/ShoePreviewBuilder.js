@@ -23,7 +23,14 @@ function ShoePreviewBuilder({ item }) {
   return (
     <div className=" flex justify-center ">
       <div>
-        <Image src={Shoes.media.imageUrl} width={100} height={100} alt="Shoe" />
+        {Shoes.media.imageUrl && (
+          <Image
+            src={Shoes.media.imageUrl}
+            width={100}
+            height={100}
+            alt="Shoe"
+          />
+        )}
       </div>
       <div>
         <div className="flex">

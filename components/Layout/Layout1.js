@@ -9,10 +9,6 @@ function Layout1({ title, children }) {
         <title>{title ? title + "NextFLEX" : "NextFLEX"}</title>
         <meta name="description" content="Modern one-stop e-commerce store" />
         <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="stylesheet"
-          href="path/to/font-awesome/css/font-awesome.min.css"
-        />
       </Head>
       <div>
         <Navbar />

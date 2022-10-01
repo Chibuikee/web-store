@@ -4,13 +4,13 @@ import { FiSearch, FiHeart, FiShoppingCart } from "react-icons/fi";
 
 function Navbar() {
   return (
-    <nav class="px-2  border-gray-200 dark:border-gray-700">
-      <div class="container md:flex flex-wrap justify-between items-center mx-auto">
+    <nav className="px-2  border-gray-200 dark:border-gray-700">
+      <div className="container md:flex flex-wrap justify-between items-center mx-auto">
         <div className="self-center basis-[10%]">
           <Link href="/">
             <a
               href="#"
-              class="flex items-center self-center text-xl font-semibold whitespace-nowrap dark:text-white"
+              className="flex items-center self-center text-xl font-semibold whitespace-nowrap dark:text-white"
             >
               MUSKNET
             </a>
@@ -23,16 +23,16 @@ function Navbar() {
                 <a>HOME</a>
               </Link>
               <svg
-                class="ml-1 w-4 h-4"
+                classNmae="ml-1 w-4 h-4"
                 aria-hidden="true"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
               <div className="sub-menu-1 absolute top-6">
@@ -65,16 +65,16 @@ function Navbar() {
                 <a>SHOP</a>
               </Link>
               <svg
-                class="ml-1 w-4 h-4"
+                className="ml-1 w-4 h-4"
                 aria-hidden="true"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
               <div className="sub-menu-1 absolute top-6">
@@ -97,16 +97,16 @@ function Navbar() {
                 <a>PRODUCT</a>
               </Link>
               <svg
-                class="ml-1 w-4 h-4"
+                className="ml-1 w-4 h-4"
                 aria-hidden="true"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
               <div className="sub-menu-2 absolute top-6">
