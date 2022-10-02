@@ -4,8 +4,8 @@ import { FiSearch, FiHeart, FiShoppingCart } from "react-icons/fi";
 
 function Navbar() {
   return (
-    <nav className="px-2  border-gray-200 dark:border-gray-700">
-      <div className="container md:flex flex-wrap justify-between items-center mx-auto">
+    <nav className="border-gray-200 dark:border-gray-700">
+      <div className="w-[60.72%] py-[2.94rem] bg-white md:flex flex-wrap justify-between items-center mx-auto">
         <div className="self-center basis-[10%]">
           <Link href="/">
             <a
@@ -16,8 +16,8 @@ function Navbar() {
             </a>
           </Link>
         </div>
-        <div className="text-center menu-bar basis-[60%]">
-          <ul className="md:inline-flex justify-between md:w-[600px] ">
+        <div className="text-center menu-bar basis-[40.48%]">
+          <ul className="md:inline-flex justify-between  ">
             <li className="relative">
               <Link href="/">
                 <a>HOME</a>
@@ -159,7 +159,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="flex justify-between basis-[15%]">
+        <div className="flex justify-between basis-[11.32%]">
           <Link href="Blog">
             <a>
               <FiSearch size={18} />
