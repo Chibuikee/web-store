@@ -7,17 +7,17 @@ import Layout1 from "../components/Layout/Layout1";
 import ShoeDB from "../Resources/ShoeDB.json";
 
 function Blog({ data }) {
-  const [Shoes, setShoes] = useState(null);
+  // const [Shoes, setShoes] = useState(null);
 
-  useEffect(() => {
-    setShoes(data);
-  }, []);
+  // useEffect(() => {
+  //   setShoes(data);
+  // }, []);
   return (
     <Layout1>
       <section>
         <div>
           <div className="grid grid-cols-4 gap-4">
-            {Shoes?.map((item) => {
+            {data?.map((item) => {
               return item.media.imageUrl && <StoreItemBuilder item={item} />;
             })}
             <h1>check your internet connection Refresh your page</h1>

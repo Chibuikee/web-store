@@ -23,10 +23,17 @@ export default function Home() {
       : category === "men"
       ? Men
       : mainData;
+  //  const style = {{
+  //       backgroundImage: "URL(/static/images/Wallpapers/peter-aroner-KRvPP5i7DWA-unsplash.jpg)";
+  //       backgroundRepeat: "no-repeat";
+  //       backgroundSize: "cover";
+  //       backgroundPosition: "center";
+  //     }}
   return (
     <Layout1 title="Home Page">
       <section className="">
         <div>
+          <div className="bg-[url('/static/images/Wallpapers/peter-aroner-KRvPP5i7DWA-unsplash.jpg')] bg-center bg-cover w-[100vw] h-[717px]"></div>
           <h3>SHOP BY CATEGORIES</h3>
           <h6>Pick a category you need</h6>
           <div className="flex justify-between">
