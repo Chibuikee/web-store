@@ -8,6 +8,8 @@ import StoreItemBuilder from "../components/StorePage/StoreItemBuilder";
 import Link from "next/link";
 import Layout1 from "../components/Layout/Layout1";
 import ShoeDB from "../Resources/ShoeDB.json";
+import Sliderdata from "../Resources/Sliderdata.json";
+import ImageSlider from "../components/ImageSlider";
 export default function Home() {
   const [category, setCategory] = useState("mainData");
   const [Amount, setAmount] = useState(false);
@@ -23,17 +25,34 @@ export default function Home() {
       : category === "men"
       ? Men
       : mainData;
-  //  const style = {{
-  //       backgroundImage: "URL(/static/images/Wallpapers/peter-aroner-KRvPP5i7DWA-unsplash.jpg)";
-  //       backgroundRepeat: "no-repeat";
-  //       backgroundSize: "cover";
-  //       backgroundPosition: "center";
-  //     }}
+
+  const containerStyles = {
+    width: "500px",
+    height: "280px",
+    margin: "0 auto",
+  };
+
   return (
     <Layout1 title="Home Page">
       <section className="">
         <div>
-          <div className="bg-[url('/static/images/Wallpapers/peter-aroner-KRvPP5i7DWA-unsplash.jpg')] bg-center bg-cover w-[100vw] h-[717px]"></div>
+          <div className="relative">
+            <div className=" filter brightness-50 bg-[url('/static/images/Wallpapers/peter-aroner-KRvPP5i7DWA-unsplash.jpg')] bg-center bg-cover w-[100vw] h-[717px]"></div>
+            <div className="absolute top-0 text-white left-auto right-auto">
+              <h1>CHOOSE YOUR SHOES WITH US.</h1>
+              <span>
+                We will help you to choose the product that without the doubt
+                suits you best.
+              </span>
+              <span>And we mean it</span>
+              <div className="w-[300px] h-[200px] mx-auto">
+                <ImageSlider slides={Sliderdata} />
+              </div>
+              <button className="bg-black text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                Read More
+              </button>
+            </div>
+          </div>
           <h3>SHOP BY CATEGORIES</h3>
           <h6>Pick a category you need</h6>
           <div className="flex justify-between">
