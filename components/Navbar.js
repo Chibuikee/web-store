@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { FiSearch, FiHeart, FiShoppingCart } from "react-icons/fi";
+import { RiArrowDropDownLine, RiArrowDropUpLine } from "react-icons/ri";
 
 function Navbar() {
   return (
@@ -17,24 +18,12 @@ function Navbar() {
           </Link>
         </div>
         <div className="text-center menu-bar basis-[40.48%]">
-          <ul className="md:inline-flex justify-between  ">
-            <li className="relative">
+          <ul className="md:flex justify-between  ">
+            <li className="relative basis-1/5">
               <Link href="/">
                 <a>HOME</a>
               </Link>
-              <svg
-                className="ml-1 w-4 h-4"
-                aria-hidden="true"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                ></path>
-              </svg>
+              <RiArrowDropDownLine className="DropDown" />
               <div className="sub-menu-1 absolute top-6">
                 <ul className="">
                   <li>
@@ -60,23 +49,11 @@ function Navbar() {
                 </ul>
               </div>
             </li>
-            <li>
+            <li className="relative basis-1/5">
               <Link href="/Blog">
                 <a>SHOP</a>
               </Link>
-              <svg
-                className="ml-1 w-4 h-4"
-                aria-hidden="true"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                ></path>
-              </svg>
+              <RiArrowDropDownLine className="DropDown" />
               <div className="sub-menu-1 absolute top-6">
                 <ul className="">
                   <li>
@@ -92,23 +69,11 @@ function Navbar() {
                 </ul>
               </div>
             </li>
-            <li className="relative">
+            <li className="relative basis-1/5">
               <Link href="/">
                 <a>PRODUCT</a>
               </Link>
-              <svg
-                className="ml-1 w-4 h-4"
-                aria-hidden="true"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                ></path>
-              </svg>
+              <RiArrowDropDownLine className="DropDown" />
               <div className="sub-menu-2 absolute top-6">
                 <ul className="">
                   <li>
@@ -134,25 +99,13 @@ function Navbar() {
                 </ul>
               </div>
             </li>
-            <li>
+            <li className="basis-1/5">
               <Link href="Blog">
                 <a>BLOG</a>
               </Link>
-              <svg
-                className="ml-1 w-4 h-4"
-                aria-hidden="true"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                ></path>
-              </svg>
+              <RiArrowDropDownLine className="DropDown" />
             </li>
-            <li>
+            <li className="basis-1/5">
               <Link href="/">
                 <a>PAGE</a>
               </Link>
