@@ -26,12 +26,6 @@ export default function Home() {
       ? Men
       : mainData;
 
-  const containerStyles = {
-    width: "500px",
-    height: "280px",
-    margin: "0 auto",
-  };
-
   return (
     <Layout1 title="Home Page">
       <section className="">

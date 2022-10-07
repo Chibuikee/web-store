@@ -32,7 +32,7 @@ function SignIn() {
           </Link>
           <h1>Welcome Back</h1>
           <p id="login-note">
-            Yay! You're back! Thanks for shopping with us. We have excited deals
+            Yay! You`re back! Thanks for shopping with us. We have excited deals
             and promotions going on, grab your pick now!
           </p>
           <Link id="login-logo-ctn" to="/">

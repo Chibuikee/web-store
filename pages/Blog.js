@@ -1,27 +1,52 @@
-import React, { useEffect, useState } from "react";
-// import axios from "axios";
-// import path from "path"
-import StoreItemBuilder from "../components/StorePage/StoreItemBuilder";
-// import { server } from "../config";
+import React, { useState, useEffect } from "react";
+import AllComents from "../components/Comments/AllComents";
 import Layout1 from "../components/Layout/Layout1";
-import ShoeDB from "../Resources/ShoeDB.json";
+// import fs from "fs";
+// import path from "path";
+function Blog() {
+  const [formData, setFormData] = useState({});
 
-function Blog({ data }) {
-  // const [Shoes, setShoes] = useState(null);
+  function handleChange(e) {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  }
 
-  // useEffect(() => {
-  //   setShoes(data);
-  // }, []);
   return (
     <Layout1>
+      {" "}
       <section>
         <div>
-          <div className="grid grid-cols-4 gap-4">
-            {data?.map((item) => {
-              return item.media.imageUrl && <StoreItemBuilder item={item} />;
-            })}
-            <h1>check your internet connection Refresh your page</h1>
-          </div>
+          <AllComents />
+        </div>
+        <div>
+          <h1>WRITE A COMMENT</h1>
+          <form>
+            <input
+              className="mt-[2px] block border-solid border border-[red]"
+              type="email"
+              name="email"
+              placeholder="Enter Your E-mail"
+              onChange={handleChange}
+              value={formData.email}
+            />
+            <input
+              className="mt-[2px] block border-solid border border-[red]"
+              type="text"
+              name="name"
+              placeholder="Enter Name"
+              value={formData.name}
+              onChange={handleChange}
+            />
+            <input
+              className="mt-[2px] block border-solid border border-[red]"
+              type=""
+              placeholder="Your Questions"
+              name="comment"
+              onChange={handleChange}
+              value={formData.comment}
+            />
+            <button>Submit</button>
+          </form>
         </div>
       </section>
     </Layout1>
@@ -29,9 +54,10 @@ function Blog({ data }) {
 }
 
 export default Blog;
-export async function getStaticProps(context) {
-  // const res = await axios.get(`${server}/db/datas.json`);
-  return {
-    props: { data: ShoeDB },
-  };
-}
+
+// export async function getStaticProps(context) {
+//   console.log(process.cwd());
+//   return {
+//     props: {},
+//   };
+// }

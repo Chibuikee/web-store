@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Register() {
   const initialValues = { email: "", password: "" };
   const [formValues, setFormValues] = useState(initialValues);
-  const [formErrors, setFormErrors] = useState({});
+
   const [isSubmit, setIsSubmit] = useState(false);
 
   const handleChange = (e) => {
@@ -14,25 +14,19 @@ function Register() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setFormErrors(validate(formValues));
     setIsSubmit(true);
   };
 
   return (
     <section id="login-section">
       <div className="login-container">
-        {/* {Object.keys(formErrors).length === 0 && isSubmit ? (
-          <div className="ui message success">Signed in successfully</div>
-        ) : (
-          <pre>{JSON.stringify(formValues, undefined, 2)}</pre>
-        )} */}
         <div id="login-heading">
           <Link to="/">
             <span id="login-back">&#60;</span>
           </Link>
           <h1>Welcome Back</h1>
           <p id="login-note">
-            Yay! You're back! Thanks for shopping with us. We have excited deals
+            Yay! You`re back! Thanks for shopping with us. We have excited deals
             and promotions going on, grab your pick now!
           </p>
           <Link id="login-logo-ctn" to="/">
