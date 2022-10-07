@@ -135,7 +135,7 @@ function Navbar() {
               </div>
             </li>
             <li>
-              <Link href="/Blog">
+              <Link href="Blog">
                 <a>BLOG</a>
               </Link>
               <svg
