@@ -6,7 +6,7 @@ import { RiArrowDropDownLine, RiArrowDropUpLine } from "react-icons/ri";
 function Navbar() {
   return (
     <nav className="border-gray-200 dark:border-gray-700">
-      <div className="w-[60.72%] py-[2.94rem] bg-white md:flex flex-wrap justify-between items-center mx-auto">
+      <div className="w-[60.72%] py-[2.94rem] bg-white md:flex flex-wrap justify-between items-center mx-auto ">
         <div className="self-center basis-[10%]">
           <Link href="/">
             <a
@@ -24,7 +24,7 @@ function Navbar() {
                 <a>HOME</a>
               </Link>
               <RiArrowDropDownLine className="DropDown" />
-              <div className="sub-menu-1 absolute top-6">
+              <div className="sub-menu-1 absolute top-6 z-[9999]">
                 <ul className="">
                   <li>
                     <Link href="/">
@@ -54,7 +54,7 @@ function Navbar() {
                 <a>SHOP</a>
               </Link>
               <RiArrowDropDownLine className="DropDown" />
-              <div className="sub-menu-1 absolute top-6">
+              <div className="sub-menu-1 absolute top-6 z-[9999]">
                 <ul className="">
                   <li>
                     <Link href="Shoppingcart/CheckoutPage">
@@ -74,7 +74,7 @@ function Navbar() {
                 <a>PRODUCT</a>
               </Link>
               <RiArrowDropDownLine className="DropDown" />
-              <div className="sub-menu-2 absolute top-6">
+              <div className="sub-menu-2 absolute top-6 z-[9999]">
                 <ul className="">
                   <li>
                     <Link href="/">

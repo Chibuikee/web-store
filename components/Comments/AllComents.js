@@ -6,15 +6,23 @@ import CommentBuilder from "./CommentBuilder";
 function AllComents() {
   const [comment, setComment] = useState([]);
   useEffect(() => {
-    const CommentRef = collection(db, "Blog");
-    const q = query(CommentRef, orderBy("createdAt", "description"));
-    onSnapshot(q, (snapshot) => {
-      const commentData = snapshot.docs.map((doc) => ({
-        id: doc.id,
-        ...doc.data(),
-      }));
-      setComment(commentData);
-    });
+    // const q = query(CommentRef, orderBy("createdAt", "description"));
+    const unsub = onSnapshot(
+      collection(db, "Blog"),
+      (snapshot) => {
+        const commentData = snapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data(),
+        }));
+        setComment(commentData);
+      },
+      (error) => {
+        console.log(error);
+      }
+    );
+    return () => {
+      unsub();
+    };
   }, []);
   return (
     <div>

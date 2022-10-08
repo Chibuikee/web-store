@@ -12,8 +12,24 @@ const nextConfig = {
         port: "",
         pathname: "images/**",
       },
+      {
+        protocol: "https",
+        hostname: "source.unsplash.com",
+        port: "",
+        pathname: "random/**",
+      },
+      {
+        protocol: "https",
+        hostname: "firebasestorage.googleapis.com",
+        port: "",
+        pathname: "v0/b/web-store-57434.appspot.com/o/images/**",
+      },
     ],
-    domains: ["images.stockx.com"],
+    domains: [
+      "images.stockx.com",
+      "source.unsplash.com",
+      "firebasestorage.googleapis.com",
+    ],
   },
 };
 
