@@ -50,7 +50,7 @@ function Navbar() {
               </div>
             </li>
             <li className="relative basis-1/5">
-              <Link href="/Blog">
+              <Link href="/Shop">
                 <a>SHOP</a>
               </Link>
               <RiArrowDropDownLine className="DropDown" />
@@ -118,7 +118,7 @@ function Navbar() {
               <FiSearch size={18} />
             </a>
           </Link>
-          <Link href="/Wishlist">
+          <Link href="/WishList">
             <a>
               <FiHeart size={18} />
             </a>
