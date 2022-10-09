@@ -12,7 +12,7 @@ function Layout1({ title, children }) {
       </Head>
       <div>
         <Navbar />
-        <main className="max-w-[1180px]">{children}</main>
+        <main className="lg:w-[60.72%] mx-auto">{children}</main>
         <Footer />
       </div>
     </>

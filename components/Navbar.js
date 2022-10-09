@@ -27,8 +27,8 @@ function Navbar() {
               <div className="sub-menu-1 absolute top-6 z-[9999]">
                 <ul className="">
                   <li>
-                    <Link href="/">
-                      <a>Profile</a>
+                    <Link href="/ContactUs">
+                      <a>ContactUs</a>
                     </Link>
                   </li>
                   <li>

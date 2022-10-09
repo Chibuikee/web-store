@@ -6,7 +6,7 @@ function cartBuilder({ cartData }) {
   return (
     <>
       {Shoes && Shoes.media?.imageUrl && (
-        <div className="bg-[#b1b6bb]   ">
+        <div className="bg-[#b1b6bb] flex items-center">
           <button
             className="p-2 border border-solid border-black bg-[red]"
             aria-label="Decrement value"

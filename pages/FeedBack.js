@@ -1,18 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import FAQList from "../components/FeedBack/FAQList";
+import GetinTouch from "../components/GetinTouch";
 import Layout1 from "../components/Layout/Layout1";
 
 function FeedBack() {
-  const [formData, setFormData] = useState({});
-
-  function handleChange(e) {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
-  }
-
   return (
     <Layout1>
-      <div>
+      <div className="w-[60.72%] py-[2.94rem] bg-white md:flex flex-col items-center mx-auto ">
         <div>
           <div>
             <h4>Home/FAQ</h4>
@@ -35,33 +29,7 @@ function FeedBack() {
         </div>
         <div>
           <h1>HAVE ANY QUESTIONS?</h1>
-          <form>
-            <input
-              className="mt-[2px] block border-solid border border-[red]"
-              type="email"
-              name="email"
-              placeholder="Enter Your E-mail"
-              onChange={handleChange}
-              value={formData.email}
-            />
-            <input
-              className="mt-[2px] block border-solid border border-[red]"
-              type="text"
-              name="name"
-              placeholder="Enter Name"
-              value={formData.name}
-              onChange={handleChange}
-            />
-            <input
-              className="mt-[2px] block border-solid border border-[red]"
-              type=""
-              placeholder="Your Questions"
-              name="comment"
-              onChange={handleChange}
-              value={formData.comment}
-            />
-            <button>Submit</button>
-          </form>
+          <GetinTouch />
         </div>
         <div>
           <div>

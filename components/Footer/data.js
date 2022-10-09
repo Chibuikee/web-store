@@ -77,3 +77,27 @@ export const footerContact = ContactLinks.map((item, keys) => (
     ))}
   </div>
 ));
+export const officeContacts = [
+  {
+    title: "MAIN OFFICE",
+    items: [
+      {
+        icon: BiLocationPlus,
+        info: "Yakubu Gowon Crescent, Asokoro, Abuja, Nigeria",
+      },
+      { icon: IoCallOutline, info: "+234 50938432223" },
+      { icon: HiOutlineMailOpen, info: "Sopewenike@gmail.com" },
+    ],
+  },
+  {
+    title: "BRANCH OFFICE",
+    items: [
+      {
+        icon: BiLocationPlus,
+        info: "Obayan, Akoka, lagos, Nigeria",
+      },
+      { icon: IoCallOutline, info: "+234 50938432223" },
+      { icon: HiOutlineMailOpen, info: "Sopewenike@gmail.com" },
+    ],
+  },
+];

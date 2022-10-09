@@ -24,19 +24,24 @@ function Shoppingcart() {
   return (
     <Layout1>
       <section>
+        <div className="bg-[url('/static/images/Wallpapers/thomas-serer-R_0rTS9ENnk-unsplash.jpg')] bg-center bg-cover w-[100vw] h-[220px]"></div>
         <div>
-          {CartData.map((data) => (
-            <CartBuilder
-              cartData={{
-                Shoes: data,
-                HandleDelete,
-                HandleReduce,
-                HandleIncrement,
-              }}
-              key={data.id}
-            />
-          ))}
-          <div>
+          <h3>PRODUCT</h3>
+          <div className="flex justify-between">
+            <div className="flex flex-col gap-3">
+              {CartData.map((data) => (
+                <CartBuilder
+                  cartData={{
+                    Shoes: data,
+                    HandleDelete,
+                    HandleReduce,
+                    HandleIncrement,
+                  }}
+                  key={data.id}
+                />
+              ))}
+            </div>
+
             <div>
               {
                 <CartTotal
@@ -46,29 +51,29 @@ function Shoppingcart() {
                 />
               }
             </div>
-            <div>
-              <Discount />
-            </div>
-            {CartData.length === 0 && (
-              <div>
-                <h1 className="text-3xl font-extrabold text-center text-[red]">
-                  YOUR SHOPPING CART IS EMPTY
-                </h1>
-                <p className="text-center">
-                  To see which products are in cart, go to shop and click on
-                  `Add to cart` button.
-                  <span className="block">
-                    For now there is no product added into the cart
-                  </span>
-                </p>
-                <Link className="" href="/" passHref>
-                  <button className="bg-black text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-                    Back to shop
-                  </button>
-                </Link>
-              </div>
-            )}
           </div>
+          <div>
+            <Discount />
+          </div>
+          {CartData.length === 0 && (
+            <div>
+              <h1 className="text-3xl font-extrabold text-center text-[red]">
+                YOUR SHOPPING CART IS EMPTY
+              </h1>
+              <p className="text-center">
+                To see which products are in cart, go to shop and click on `Add
+                to cart` button.
+                <span className="block">
+                  For now there is no product added into the cart
+                </span>
+              </p>
+              <Link className="" href="/" passHref>
+                <button className="bg-black text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                  Back to shop
+                </button>
+              </Link>
+            </div>
+          )}
         </div>
       </section>
     </Layout1>
