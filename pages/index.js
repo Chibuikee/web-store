@@ -31,7 +31,7 @@ export default function Home() {
       <section className="">
         <div>
           <div className="relative">
-            <div className=" filter brightness-50 bg-[url('/static/images/Wallpapers/peter-aroner-KRvPP5i7DWA-unsplash.jpg')] bg-center bg-cover w-[100vw] h-[717px]"></div>
+            <div className=" filter brightness-50 bg-[url('/static/images/Wallpapers/peter-aroner-KRvPP5i7DWA-unsplash.jpg')] bg-center bg-cover w-[100%] h-[60vh]"></div>
             <div className="absolute top-0 text-white left-auto right-auto">
               <h1>CHOOSE YOUR SHOES WITH US.</h1>
               <span>

@@ -24,7 +24,7 @@ function Shoppingcart() {
   return (
     <Layout1>
       <section>
-        <div className="bg-[url('/static/images/Wallpapers/thomas-serer-R_0rTS9ENnk-unsplash.jpg')] bg-center bg-cover w-[100vw] h-[220px]"></div>
+        <div className="bg-[url('/static/images/Wallpapers/thomas-serer-R_0rTS9ENnk-unsplash.jpg')] bg-center bg-cover w-[100%] h-[220px]"></div>
         <div>
           <h3>PRODUCT</h3>
           <div className="flex justify-between">
