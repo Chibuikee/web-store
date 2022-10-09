@@ -5,12 +5,14 @@ function StoreItemBuilder(props) {
   const newShoe = props.item;
   return (
     <div className="bg-[#b1b6bb] grid justify-center border border-solid border-black">
-      <div>
+      <div className="w-[150px] h-[150px] ">
         {newShoe.media.imageUrl && (
           <Image
+            className="w-full"
             src={newShoe.media.imageUrl}
             width={100}
             height={100}
+            layout="responsive"
             alt="Shoe"
           />
         )}

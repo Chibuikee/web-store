@@ -41,7 +41,9 @@ function Footer() {
         <div className="bg-[#D93434] max-w-[80%] h-[1px] mx-auto"></div>
         <div className="flex px-7 justify-between items-center font-sans py-4 text-white mx-auto md:max-w-[960px] lg:max-w-[1280px] ">
           <p className="copy-rights text-muted">COPYRIGHT 2022 © Musknet</p>
-          DESIGN RIGHTS NOT RESERVED!
+          <a href="https://www.instagram.com/theme_rage_enavato/">
+            DESIGN RIGHTS- theme_rage_enavato
+          </a>
         </div>
       </div>
     </section>
