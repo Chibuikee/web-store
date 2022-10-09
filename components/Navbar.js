@@ -113,17 +113,17 @@ function Navbar() {
           </ul>
         </div>
         <div className="flex justify-between basis-[11.32%]">
-          <Link href="Blog">
+          <Link href="/Blog">
             <a>
               <FiSearch size={18} />
             </a>
           </Link>
-          <Link href="Wishlist">
+          <Link href="/Wishlist">
             <a>
               <FiHeart size={18} />
             </a>
           </Link>
-          <Link href="Shoppingcart">
+          <Link href="/Shoppingcart">
             <a>
               <FiShoppingCart size={18} />
             </a>

@@ -50,15 +50,24 @@ export default function Home() {
           <h3>SHOP BY CATEGORIES</h3>
           <h6>Pick a category you need</h6>
           <div className="flex justify-between">
-            <div onClick={() => setCategory("women")}>
+            <div
+              onClick={() => setCategory("women")}
+              className="bg-[url('/static/images/Wallpapers/mike-von-ZrP2ahtPsG8-unsplash.jpg')] bg-center bg-cover w-[20vw] h-[77px]"
+            >
               <h3>WOMEN</h3>
               <span>{Women.length} PRODUCTS</span>
             </div>
-            <div onClick={() => setCategory("men")}>
+            <div
+              onClick={() => setCategory("men")}
+              className="bg-[url('/static/images/Wallpapers/hunter-johnson-IwPehLEyFKM-unsplash.jpg')] bg-center bg-cover w-[20vw] h-[77px]"
+            >
               <h3>MEN</h3>
               <span>{Men.length} PRODUCTS</span>
             </div>
-            <div onClick={() => setCategory("child")}>
+            <div
+              onClick={() => setCategory("child")}
+              className="bg-[url('/static/images/Wallpapers/taylor-smith-VmgXOXLT3pc-unsplash.jpg')] bg-center bg-cover w-[20vw] h-[77px]"
+            >
               <h3>KIDS</h3>
               <span>{Child.length} PRODUCTS</span>
             </div>

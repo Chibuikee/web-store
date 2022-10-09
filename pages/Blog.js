@@ -5,13 +5,15 @@ import { addDoc, collection, Timestamp } from "firebase/firestore";
 import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
 import { db, storage } from "../firebaseConfig";
 import { toast } from "react-toastify";
-
+const InitiaState = {
+  createdAt: Timestamp.now().toDate(),
+  description: "",
+  imageUrl: "",
+  name: "",
+};
 function Blog() {
-  const [formData, setFormData] = useState({
-    createdAt: Timestamp.now().toDate(),
-    description: "",
-    imageUrl: "",
-    name: "",
+  const [formData, setFormData] = useState(() => {
+    InitiaState;
   });
   const [file, setFile] = useState(null);
   const [Progess, setProgess] = useState(0);
@@ -76,6 +78,9 @@ function Blog() {
       }
     }
     writeDb();
+    setFormData(InitiaState);
+    setFile(null);
+    setProgess(0);
   }
 
   return (
@@ -100,7 +105,7 @@ function Blog() {
               type="text"
               name="name"
               placeholder="Enter Name"
-              value={formData.name}
+              value={formData?.name}
               onChange={handleChange}
             />
             <input
@@ -109,7 +114,7 @@ function Blog() {
               placeholder="Your Comment"
               name="description"
               onChange={handleChange}
-              value={formData.description}
+              value={formData?.description}
             />
             <button onClick={handleSubmit}>Submit</button>
           </form>
