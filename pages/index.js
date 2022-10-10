@@ -52,27 +52,27 @@ export default function Home() {
               style={{ clipPath: " polygon(0 0, 100% 0, 100% 18%, 0 84%)" }}
               className="absolute bg-black h-[323px] w-[100vw]"
             ></div>
-            <div className="text-white lg:w-[60.72%] mx-auto absolute top-[20px] right-0 left-0">
+            <div className="text-white lg:w-[60.72%] mx-auto absolute top-[50px] right-0 left-0">
               <h3 className="text-[red]">SHOP BY CATEGORIES</h3>
               <h6>Pick a category you need</h6>
-              <div className="flex justify-between">
+              <div className="flex gap-4 ">
                 <div
                   onClick={() => setCategory("women")}
-                  className="cursor-pointer bg-[url('/static/images/Wallpapers/mike-von-ZrP2ahtPsG8-unsplash.jpg')] bg-center bg-cover w-[20vw] h-[20vw]"
+                  className="cursor-pointer bg-[url('/static/images/Wallpapers/mike-von-ZrP2ahtPsG8-unsplash.jpg')] bg-center bg-cover basis-1/3 h-[20vw]"
                 >
                   <h3 className="text-[red]">WOMEN</h3>
                   <span>{Women.length} PRODUCTS</span>
                 </div>
                 <div
                   onClick={() => setCategory("men")}
-                  className="cursor-pointer bg-[url('/static/images/Wallpapers/hunter-johnson-IwPehLEyFKM-unsplash.jpg')] bg-center bg-cover w-[20vw] h-[20vw]"
+                  className="cursor-pointer bg-[url('/static/images/Wallpapers/hunter-johnson-IwPehLEyFKM-unsplash.jpg')] bg-center bg-cover basis-1/3 h-[20vw]"
                 >
                   <h3 className="text-[red]">MEN</h3>
                   <span>{Men.length} PRODUCTS</span>
                 </div>
                 <div
                   onClick={() => setCategory("child")}
-                  className="cursor-pointer bg-[url('/static/images/Wallpapers/taylor-smith-VmgXOXLT3pc-unsplash.jpg')] bg-center bg-cover w-[20vw] h-[20vw]"
+                  className="cursor-pointer bg-[url('/static/images/Wallpapers/taylor-smith-VmgXOXLT3pc-unsplash.jpg')] bg-center bg-cover basis-1/3 h-[20vw]"
                 >
                   <h3 className="text-[red]">KIDS</h3>
                   <span>{Child.length} PRODUCTS</span>
@@ -81,22 +81,22 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="lg:w-[60.72%] mx-auto">
+          <div className="lg:w-[60.72%] mx-auto mt-20">
             <h1>OUR PRODUCTS</h1>
-            <div className="grid grid-cols-[200px_200px_200px_200px] gap-2">
+            <div className="grid grid-cols-[200px_200px_200px_200px] gap-5">
               {selectedcategory
                 ?.slice(0, Amount ? undefined : 9)
                 .map((item) => {
                   return item && <StoreItemBuilder item={item} key={item.id} />;
                 })}
-              <h1>check your internet connection Refresh your page</h1>
-              <button
-                className="bg-black text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                onClick={() => setAmount(!Amount)}
-              >
-                {Amount ? "Show Less" : "Show All"}
-              </button>
             </div>
+            <h1>check your internet connection Refresh your page</h1>
+            <button
+              className="bg-black text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              onClick={() => setAmount(!Amount)}
+            >
+              {Amount ? "Show Less" : "Show All"}
+            </button>
           </div>
         </div>
       </section>
