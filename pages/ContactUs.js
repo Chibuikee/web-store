@@ -58,12 +58,12 @@ function ContactUs() {
           </div>
           <div class="overflow-hidden bg-none relative w-full text-right">
             <iframe
-              class="gmap_iframe h-[353px]"
+              className="gmap_iframe h-[353px]"
               width="100%"
-              frameborder="0"
+              frameBorder="0"
               scrolling="no"
-              marginheight="0"
-              marginwidth="0"
+              marginHeight="0"
+              marginWidth="0"
               src="https://maps.google.com/maps?width=660&amp;height=353&amp;hl=en&amp;q=Obayan akoka&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
             ></iframe>
             <a href="https://mcpenation.com/">https://mcpenation.com</a>

@@ -9,7 +9,7 @@ body {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.menu-bar > ul li {
+/* .menu-bar > ul li {
   padding: 2px 9px;
   display: inline-flex;
   align-items: center;
@@ -18,18 +18,41 @@ body {
   background: #2bab0d;
   border-radius: 3px;
 }
-[class^="sub-menu-"] {
-  display: none;
-}
 
-.menu-bar ul li:hover [class^="sub-menu-"] {
-  display: block;
-  bottom: 0px;
-  /* top: 55px; */
-}
 
-[class^="sub-menu-"] ul {
+
+
+/* [class^="sub-menu-"] ul {
   display: flex;
   flex-direction: column;
   background: #0c3303;
+} */
+.menu-main,
+[class^="menu-sub-"] {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-item-children-ctn {
+  display: none;
+}
+.menu-main ul li:hover .menu-item-children-ctn {
+  display: block;
+  bottom: 0px;
+  top: 55px;
+}
+.menu-item-heading {
+  display: flex;
+  align-items: center;
+}
+.navdrop-ctn {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .navdrop-ctn {
+    display: block;
+  }
+  .menu-main,
+  [class^="menu-sub-"] {
+    flex-direction: column;
+  }
 }
