@@ -55,4 +55,11 @@ body {
   [class^="menu-sub-"] {
     flex-direction: column;
   }
+  .menu-main {
+    position: fixed;
+    right: -100px;
+  }
+  #check:checked ~ .menu-main {
+    right: 100px;
+  }
 }

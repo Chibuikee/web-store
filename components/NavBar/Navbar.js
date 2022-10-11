@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { RiArrowDropDownLine, RiArrowDropUpLine } from "react-icons/ri";
 import { NavMenuList, NavMenuUtilityList } from "./NavData";
 function Navbar() {
-  const [navBarToggle, setNavBarToggle] = useState(false);
+  const [navBarToggle, setNavBarToggle] = useState(true);
 
   useEffect(() => {
     const w = () => {
@@ -29,7 +29,9 @@ function Navbar() {
           </Link>
         </div>
         <div className="menu-main-ctn">
-          <div
+          <input type="checkbox" id="check" className="hidden" />
+          <label
+            for="check"
             className="navdrop-ctn"
             onClick={() => setNavBarToggle(!navBarToggle)}
           >
@@ -38,9 +40,9 @@ function Navbar() {
             ) : (
               <RiArrowDropDownLine className="navdrop-2" />
             )}
-          </div>
+          </label>
 
-          {navBarToggle && (
+          {
             <div className="menu-main">
               <ul className="menu-sub-1-ctn">
                 {NavMenuList.map(({ title, childList }, index) => (
@@ -77,7 +79,7 @@ function Navbar() {
                 ))}
               </div>
             </div>
-          )}
+          }
         </div>
       </div>
     </nav>
