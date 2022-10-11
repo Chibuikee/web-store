@@ -28,7 +28,7 @@ function Navbar() {
             </a>
           </Link>
         </div>
-        <div className="menu-main-ctn">
+        <div className="menu-main-ctn md:basis-[60%]">
           <input type="checkbox" id="check" className="hidden" />
           <label
             for="check"

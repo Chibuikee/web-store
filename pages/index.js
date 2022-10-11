@@ -83,7 +83,7 @@ export default function Home() {
 
           <div className="lg:w-[60.72%] mx-auto mt-20">
             <h1>OUR PRODUCTS</h1>
-            <div className="grid grid-cols-[200px_200px_200px_200px] gap-5">
+            <div className="grid grid-cols-4 gap-5">
               {selectedcategory
                 ?.slice(0, Amount ? undefined : 9)
                 .map((item) => {
