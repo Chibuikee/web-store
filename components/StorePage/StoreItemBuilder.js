@@ -4,7 +4,7 @@ import Link from "next/link";
 function StoreItemBuilder(props) {
   const newShoe = props.item;
   return (
-    <div className="border bg-[rgba(230,230,230,0.44)]">
+    <div className=" bg-[rgba(230,230,230,0.44)]">
       <div className="">
         {newShoe.media.imageUrl && (
           <Image
@@ -18,16 +18,8 @@ function StoreItemBuilder(props) {
         )}
       </div>
       <div className="text-center pb-3">
-        <h5>{newShoe.brand}</h5>
-        <h5
-          style={{
-            textOverflow: "ellipsis",
-            overflow: "hidden",
-            whiteSpace: "nowrap",
-          }}
-        >
-          {newShoe.name}
-        </h5>
+        <h5 className="truncate">{newShoe.brand}</h5>
+        <h5 className="truncate">{newShoe.name}</h5>
         <h5>{newShoe.retailPrice}</h5>
         <h5 className="mb-auto">{newShoe.gender}</h5>
 

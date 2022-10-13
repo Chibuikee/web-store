@@ -10,9 +10,9 @@ const slideStyles = {
 
 const rightArrowStyles = {
   position: "absolute",
-  top: "50%",
-  transform: "translate(0, -50%)",
-  right: "-10vw",
+  top: "60%",
+  transform: "translate(0, -40%)",
+  right: "-5vw",
   fontSize: "45px",
   color: "#fff",
   zIndex: 1,
@@ -21,9 +21,9 @@ const rightArrowStyles = {
 
 const leftArrowStyles = {
   position: "absolute",
-  top: "50%",
-  transform: "translate(0, -50%)",
-  left: "-10vw",
+  top: "60%",
+  transform: "translate(0, -40%)",
+  left: "-5vw",
   fontSize: "45px",
   color: "#fff",
   zIndex: 1,

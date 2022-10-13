@@ -32,19 +32,23 @@ export default function Home() {
         <div>
           <div className="">
             <div className=" filter brightness-50 bg-[url('/static/images/Wallpapers/peter-aroner-KRvPP5i7DWA-unsplash.jpg')] bg-center bg-cover w-[100%] h-[60vh]"></div>
-            <div className="absolute top-[30%] text-white left-0 right-0 lg:w-[60.72%] mx-auto">
-              <h1>CHOOSE YOUR SHOES WITH US.</h1>
-              <span>
-                We will help you to choose the product that without the doubt
-                suits you best.
-              </span>
-              <span>And we mean it</span>
-              <div className="w-[300px] h-[200px] mx-auto">
+            <div className="w-[90%] sm:w-[540px] md:w-[720px] px-3 lg:max-w-[1280px] xl:max-w-[1536px] absolute top-[30%] text-white left-0 right-0 mx-auto lg:flex">
+              <div className="">
+                <h1 className="text-5xl">
+                  CHOOSE YOUR <sapn className="block">SHOES WITH US.</sapn>
+                </h1>
+                <span className="text-base hero-paragragh">
+                  We will help you to choose the product that without the doubt
+                  suits you best.
+                </span>
+                <span className="block">And we mean it</span>
+                <button className="bg-black text-base text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                  Read More
+                </button>
+              </div>
+              <div className="w-[300px] h-[200px] mx-auto hidden lg:block">
                 <ImageSlider slides={Sliderdata} />
               </div>
-              <button className="bg-black text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-                Read More
-              </button>
             </div>
           </div>
           <div className="relative h-[323px]">
