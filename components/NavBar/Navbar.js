@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import { RiArrowDropDownLine, RiArrowDropUpLine } from "react-icons/ri";
+import { FaBars } from "react-icons/fa";
+import { RiArrowDropDownLine, RiCloseFill } from "react-icons/ri";
 import { NavMenuList, NavMenuUtilityList } from "./NavData";
 function Navbar() {
   const [navBarToggle, setNavBarToggle] = useState(true);
@@ -16,9 +17,9 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="">
-      <div className="w-[60.72%] py-[2.94rem] bg-white flex flex-wrap justify-between mx-auto ">
-        <div className=" basis-[10%]">
+    <nav className="sticky top-0 z-[999] w-full bg-white py-[2.94rem]">
+      <div className="w-[90%] sm:w-[540px] md:w-[720px] px-3 lg:max-w-[1280px] xl:max-w-[1536px] flex flex-wrap justify-between mx-auto ">
+        <div className="">
           <Link href="/">
             <a
               href="#"
@@ -28,7 +29,7 @@ function Navbar() {
             </a>
           </Link>
         </div>
-        <div className="menu-main-ctn md:basis-[60%]">
+        <div className="menu-main-ctn lg:basis-[70%] relative">
           <input type="checkbox" id="check" className="hidden" />
           <label
             for="check"
@@ -36,15 +37,15 @@ function Navbar() {
             onClick={() => setNavBarToggle(!navBarToggle)}
           >
             {navBarToggle ? (
-              <RiArrowDropUpLine className="navdrop-1" />
+              <FaBars className="navdrop-2" />
             ) : (
-              <RiArrowDropDownLine className="navdrop-2" />
+              <RiCloseFill className="navdrop-2" />
             )}
           </label>
 
           {
-            <div className="menu-main">
-              <ul className="menu-sub-1-ctn">
+            <div className="menu-main ">
+              <ul className="menu-sub-1-ctn basis-[70%]">
                 {NavMenuList.map(({ title, childList }, index) => (
                   <li key={index} className="menu-item-ctn">
                     <Link href={title.url}>
@@ -69,7 +70,7 @@ function Navbar() {
                 ))}
               </ul>
 
-              <div className="menu-sub-2-ctn">
+              <div className="menu-sub-2-ctn basis-[18%]">
                 {NavMenuUtilityList.map((item, index) => (
                   <Link key={index} href={item.url}>
                     <a>

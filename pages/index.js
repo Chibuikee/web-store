@@ -52,7 +52,7 @@ export default function Home() {
               style={{ clipPath: " polygon(0 0, 100% 0, 100% 18%, 0 84%)" }}
               className="absolute bg-black h-[323px] w-[100vw]"
             ></div>
-            <div className="text-white lg:w-[60.72%] mx-auto absolute top-[50px] right-0 left-0">
+            <div className="w-[90%] sm:w-[540px] md:w-[720px] px-3 lg:max-w-[1280px] xl:max-w-[1536px] text-white  mx-auto absolute top-[50px] right-0 left-0">
               <h3 className="text-[red]">SHOP BY CATEGORIES</h3>
               <h6>Pick a category you need</h6>
               <div className="flex gap-4 ">
@@ -81,9 +81,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="lg:w-[60.72%] mx-auto mt-20">
+          <div className="w-[90%] sm:w-[540px] md:w-[720px] px-3 lg:max-w-[1280px] xl:max-w-[1536px] mx-auto mt-20">
             <h1>OUR PRODUCTS</h1>
-            <div className="grid grid-cols-4 gap-5">
+            <div className="grid grid-cols-[minmax(50px,100px)_minmax(50px,100px)] sm:grid-cols-[minmax(100px,250px)_minmax(100px,250px)] lg:grid-cols-4 gap-5 justify-center">
               {selectedcategory
                 ?.slice(0, Amount ? undefined : 9)
                 .map((item) => {

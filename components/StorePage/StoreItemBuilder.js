@@ -19,7 +19,15 @@ function StoreItemBuilder(props) {
       </div>
       <div className="text-center h-[200px]">
         <h5>{newShoe.brand}</h5>
-        <h5>{newShoe.name}</h5>
+        <h5
+          style={{
+            textOverflow: "ellipsis",
+            overflow: "hidden",
+            whiteSpace: "nowrap",
+          }}
+        >
+          {newShoe.name}
+        </h5>
         <h5>{newShoe.retailPrice}</h5>
         <h5 className="mb-auto">{newShoe.gender}</h5>
 

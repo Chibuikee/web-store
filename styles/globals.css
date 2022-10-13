@@ -27,12 +27,14 @@ body {
   flex-direction: column;
   background: #0c3303;
 } */
+
 .menu-main,
 [class^="menu-sub-"] {
   display: flex;
   justify-content: space-between;
 }
-.menu-item-children-ctn {
+
+nav .menu-item-children-ctn {
   display: none;
 }
 .menu-main ul li:hover .menu-item-children-ctn {
@@ -40,14 +42,14 @@ body {
   bottom: 0px;
   top: 55px;
 }
-.menu-item-heading {
+nav .menu-item-heading {
   display: flex;
   align-items: center;
 }
 .navdrop-ctn {
   display: none;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1023px) {
   .navdrop-ctn {
     display: block;
   }
@@ -58,8 +60,10 @@ body {
   .menu-main {
     position: fixed;
     right: -100px;
+    background-color: black;
+    color: bisque;
   }
   #check:checked ~ .menu-main {
-    right: 100px;
+    right: 10px;
   }
 }
