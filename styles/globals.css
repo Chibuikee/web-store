@@ -33,14 +33,19 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
-nav .menu-item-children-ctn {
+nav > div {
+  transition: all 1s ease-in-out;
+}
+.menu-item-children-ctn {
   display: none;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem;
+  background-color: black;
 }
 .menu-main ul li:hover .menu-item-children-ctn {
   display: block;
-  bottom: 0px;
-  top: 55px;
+  top: 25px;
+  font-size: 0.9rem;
 }
 nav .menu-item-heading {
   display: flex;
@@ -48,6 +53,10 @@ nav .menu-item-heading {
 }
 .navdrop-ctn {
   display: none;
+}
+a:hover,
+a:active {
+  color: brown;
 }
 @media screen and (max-width: 1023px) {
   .navdrop-ctn {
@@ -62,8 +71,24 @@ nav .menu-item-heading {
     right: -100px;
     background-color: black;
     color: bisque;
+    align-items: center;
+  }
+
+  .menu-item-children-ctn {
+    position: static;
   }
   #check:checked ~ .menu-main {
-    right: 10px;
+    width: 100%;
+    height: 70vh;
+    top: 80px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    padding: 1.5rem;
+  }
+  .menu-sub-2-ctn {
+    width: 90px;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }

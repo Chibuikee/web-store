@@ -4,7 +4,7 @@ import Link from "next/link";
 function StoreItemBuilder(props) {
   const newShoe = props.item;
   return (
-    <div className="border bg-[rgba(230,230,230,0.44)] border-solid border-black">
+    <div className="border bg-[rgba(230,230,230,0.44)]">
       <div className="">
         {newShoe.media.imageUrl && (
           <Image

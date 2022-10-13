@@ -17,13 +17,13 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="sticky top-0 z-[999] w-full bg-white py-[2.94rem]">
-      <div className="w-[90%] sm:w-[540px] md:w-[720px] px-3 lg:max-w-[1280px] xl:max-w-[1536px] flex flex-wrap justify-between mx-auto ">
+    <nav className="sticky top-0 z-[999] w-full bg-white py-[2rem]">
+      <div className="w-[90%] sm:w-[540px] md:w-[720px] px-3 lg:max-w-[1280px] xl:max-w-[1536px] flex flex-wrap justify-between items-center mx-auto ">
         <div className="">
           <Link href="/">
             <a
               href="#"
-              className="flex items-center self-center text-xl font-semibold whitespace-nowrap dark:text-white"
+              className="flex text-xl font-semibold whitespace-nowrap "
             >
               MUSKNET
             </a>
@@ -47,7 +47,7 @@ function Navbar() {
             <div className="menu-main ">
               <ul className="menu-sub-1-ctn basis-[70%]">
                 {NavMenuList.map(({ title, childList }, index) => (
-                  <li key={index} className="menu-item-ctn">
+                  <li key={index} className="menu-item-ctn relative">
                     <Link href={title.url}>
                       <a className="menu-item-heading ">
                         {title.name}
@@ -57,15 +57,17 @@ function Navbar() {
                       </a>
                     </Link>
 
-                    <ul className="menu-item-children-ctn">
-                      {childList.map(({ url, name }, index) => (
-                        <li className="menu-item-child" key={index}>
-                          <Link href={url}>
-                            <a>{name}</a>
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
+                    {childList.length !== 0 && (
+                      <ul className="menu-item-children-ctn absolute">
+                        {childList.map(({ url, name }, index) => (
+                          <li className="menu-item-child" key={index}>
+                            <Link href={url}>
+                              <a>{name}</a>
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                   </li>
                 ))}
               </ul>
