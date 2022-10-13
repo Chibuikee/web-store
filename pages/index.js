@@ -85,8 +85,8 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-[90%] sm:w-[540px] md:w-[720px] px-3 lg:max-w-[1280px] xl:max-w-[1536px] mx-auto mt-20">
-            <h1>OUR PRODUCTS</h1>
+          <div className="flex flex-col items-center w-[90%] sm:w-[540px] md:w-[720px] px-3 lg:max-w-[1280px] xl:max-w-[1536px] mx-auto lg:mt-20">
+            <h1 className="self-start">OUR PRODUCTS</h1>
             <div className="grid grid-cols-[minmax(50px,100px)_minmax(50px,100px)_minmax(50px,100px)_minmax(50px,100px)] sm:grid-cols-[minmax(100px,250px)_minmax(100px,250px)_minmax(100px,250px)_minmax(100px,250px)] lg:grid-cols-4 gap-5 justify-center">
               {selectedcategory
                 ?.slice(0, Amount ? undefined : 9)
@@ -94,7 +94,7 @@ export default function Home() {
                   return item && <StoreItemBuilder item={item} key={item.id} />;
                 })}
             </div>
-            <h1>check your internet connection Refresh your page</h1>
+
             <button
               className="bg-black text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline"
               onClick={() => setAmount(!Amount)}

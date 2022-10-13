@@ -17,8 +17,8 @@ function StoreItemBuilder(props) {
           />
         )}
       </div>
-      <div className="text-center pb-3">
-        <h5 className="truncate">{newShoe.brand}</h5>
+      <div className="text-center pb-3 px-[12px]">
+        <h5 className="truncate text-base">{newShoe.brand}</h5>
         <h5 className="truncate">{newShoe.name}</h5>
         <h5>{newShoe.retailPrice}</h5>
         <h5 className="mb-auto">{newShoe.gender}</h5>
