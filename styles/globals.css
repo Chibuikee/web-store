@@ -9,24 +9,8 @@ body {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* .menu-bar > ul li {
-  padding: 2px 9px;
-  display: inline-flex;
-  align-items: center;
-}
-.menu-bar ul li:hover {
-  background: #2bab0d;
-  border-radius: 3px;
-}
 
-
-
-
-/* [class^="sub-menu-"] ul {
-  display: flex;
-  flex-direction: column;
-  background: #0c3303;
-} */
+/* NAV BAR*/
 
 .menu-main,
 [class^="menu-sub-"] {
@@ -100,4 +84,7 @@ a:active {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   overflow: hidden;
+}
+.footer-grif-ctn :nth-child(3) {
+  grid-column: span 2;
 }

@@ -44,11 +44,11 @@ export const footerLinks = [
 ];
 
 export const FooterLinks = footerLinks.map((item, keys) => (
-  <div key={keys}>
-    <h3>{item.title}</h3>
+  <div key={keys} className="text-center xxs:text-left">
+    <h3 className="py-5 text-[#D93434]">{item.title}</h3>
     {item.items.map((info, keys) => (
       <div key={keys}>
-        <h3>{info}</h3>
+        <h3 className="py-1">{info}</h3>
       </div>
     ))}
   </div>
@@ -67,12 +67,15 @@ export const ContactLinks = [
   },
 ];
 export const footerContact = ContactLinks.map((item, keys) => (
-  <div key={keys}>
-    <h3>{item.title}</h3>
+  <div key={keys} className="text-center xxs:text-left">
+    <h3 className="py-5 text-[#D93434]">{item.title}</h3>
     {item.items.map((contact, keys) => (
-      <div key={keys}>
-        <contact.icon />
-        <h3>{contact.info}</h3>
+      <div
+        key={keys}
+        className="flex gap-2 items-center py-1 mx-auto xxs:mx-[initial] w-[fit-content]"
+      >
+        <contact.icon className="text-[#D93434] hidden s450:block" />
+        <h3 className="">{contact.info}</h3>
       </div>
     ))}
   </div>
