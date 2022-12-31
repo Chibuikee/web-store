@@ -4,7 +4,7 @@ function Discount() {
   return (
     <div>
       <h3>Discount</h3>
-      <p>
+      <p className="text-[0.8rem]">
         To apply your discount enter number of your coupon and press `Submit`
         button
       </p>

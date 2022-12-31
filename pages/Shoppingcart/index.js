@@ -25,10 +25,10 @@ function Shoppingcart() {
     <Layout1>
       <section>
         <div className="bg-[url('/static/images/Wallpapers/thomas-serer-R_0rTS9ENnk-unsplash.jpg')] bg-center bg-cover w-[100%] h-[120px]"></div>
-        <div>
+        <div className="px-[28px]">
           <h3>PRODUCT</h3>
-          <div className="flex justify-between">
-            <div className="flex flex-col gap-3">
+          <div className="xs:flex justify-between">
+            <div className="flex flex-col gap-3 mr-3 relative">
               {CartData.map((data) => (
                 <CartBuilder
                   cartData={{
@@ -42,7 +42,7 @@ function Shoppingcart() {
               ))}
             </div>
 
-            <div>
+            <div className="">
               {
                 <CartTotal
                   cartData={{
@@ -56,11 +56,11 @@ function Shoppingcart() {
             <Discount />
           </div>
           {CartData.length === 0 && (
-            <div>
-              <h1 className="text-3xl font-extrabold text-center text-[red]">
+            <div className="text-[0.8rem] mt-8">
+              <h1 className="text-3xl font-extrabold text-[red]">
                 YOUR SHOPPING CART IS EMPTY
               </h1>
-              <p className="text-center">
+              <p className=" my-6">
                 To see which products are in cart, go to shop and click on `Add
                 to cart` button.
                 <span className="block">

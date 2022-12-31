@@ -1,13 +1,15 @@
 import React from "react";
 import Link from "next/link";
 import { links, FooterLinks, footerContact } from "./data";
+import Subscribe from "../subscribe";
 function Footer() {
   return (
     <section className="bg-black mt-20 px-[28px]">
+      <Subscribe />
       <div className="pc:max-w-[900px] xl:max-w-[1180px] mx-auto text-[#FFFFFF]">
         <div className="md:flex  justify-between mb-10">
           <div className="basis-[1/4] text-center xxs:text-left">
-            <h3 className="text-[#D93434] py-5">Musknet</h3>
+            <h3 className="text-[#D93434] py-5 font-bold">Musknet</h3>
             <p className="xxs:max-w-[20ch]">
               Looks like you lost your connection. Please check it and try
               again.

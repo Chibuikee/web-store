@@ -31,14 +31,14 @@ function CartTotal({ cartData }) {
         <h3> TOTALS</h3>
         {TOTALS}
       </div>
-      <div>
+      <div className="">
         <Link href="Shoppingcart/CheckoutPage" passHref>
-          <button className="bg-black text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+          <button className="bg-black text-white w-full py-2 px-4 my-6 rounded focus:outline-none focus:shadow-outline">
             Proceed to checkout
           </button>
         </Link>
         <Link href="/" passHref>
-          <button className="bg-black text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+          <button className="bg-black text-white w-full py-2 px-4 rounded focus:outline-none focus:shadow-outline">
             Continue shopping
           </button>
         </Link>
