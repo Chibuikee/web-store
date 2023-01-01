@@ -88,3 +88,6 @@ a:active {
 .footer-grif-ctn :nth-child(3) {
   grid-column: span 2;
 }
+.paymentMethod input:checked + span {
+  display: block;
+}
