@@ -28,7 +28,7 @@ function Shoppingcart() {
         <div className="px-[28px]">
           <h3>PRODUCT</h3>
           <div className="xs:flex justify-between">
-            <div className="flex flex-col gap-3 mr-3 relative">
+            <div className="flex flex-col gap-3 relative xs:w-[60%] mmd:max-w-[500px] ">
               {CartData.map((data) => (
                 <CartBuilder
                   cartData={{
@@ -42,7 +42,7 @@ function Shoppingcart() {
               ))}
             </div>
 
-            <div className="">
+            <div className="xs:w-[38%] m:w-[35%] ">
               {
                 <CartTotal
                   cartData={{
