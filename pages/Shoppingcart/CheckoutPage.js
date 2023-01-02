@@ -22,8 +22,8 @@ function CheckoutPage() {
       <div>
         <div className="saturate-[0] bg-[url('/static/images/Wallpapers/thomas-serer-R_0rTS9ENnk-unsplash.jpg')_] bg-center bg-cover w-[100%] h-[120px]">
           <h6 className="text-white px-[28px] pt-8 text-sm">
-            <Link>
-              <a href="/">Home</a>
+            <Link href="/">
+              <a>Home</a>
             </Link>
             /CheckoutPage
           </h6>
