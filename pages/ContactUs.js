@@ -15,23 +15,23 @@ function ContactUs() {
             backgroundImage:
               "linear-gradient(rgba(0,0,0,1.527),rgba(0,0,0,0.5)),url('/static/images/Wallpapers/peter-aroner-KRvPP5i7DWA-unsplash.jpg')",
           }}
-          className="text-[white] text-[1.5rem] font-semibold bg-center bg-cover w-[100%] h-[220px]"
+          className="text-[white] text-[1.5rem] bg-center bg-cover w-[100%] h-[220px]"
         >
           <h4 className="px-[28px] pt-8 text-sm">Home/Contact Us</h4>
           <h1 className="text-xl mmd:text-3xl font-semibold px-[28px] mt-5">
             CONTACT US
           </h1>
         </div>
-        <div class="m:flex mt-6 items-center px-[28px]">
-          <div>
+        <div class="m:flex justify-between mt-12 px-[10px] s:px-[initial] w-[90%]  mx-auto  sm:w-[540px] md:w-[720px] lg:max-w-[1280px] xl:max-w-[1536px">
+          <div className="basis-[35%]">
             <div className="flex flex-col gap-12">
               {officeContacts.map((item, keys) => (
                 <div key={keys}>
-                  <h3>{item.title}</h3>
+                  <h3 className="font-bold">{item.title}</h3>
                   {item.items.map((contact, keys) => (
-                    <div key={keys} className="flex">
-                      <contact.icon />
-                      <h3>{contact.info}</h3>
+                    <div key={keys} className="flex items-center py-1 text-sm">
+                      <contact.icon className="text-[#ff3300]" size={16} />
+                      <h3 className="pl-3">{contact.info}</h3>
                     </div>
                   ))}
                 </div>
@@ -58,7 +58,7 @@ function ContactUs() {
               ))}
             </ul>
           </div>
-          <div class="overflow-hidden bg-none relative w-full text-right">
+          <div className="basis-[55%] overflow-hidden bg-none relative w-full text-right mt-12 m:mt-[initial] ">
             <iframe
               className="gmap_iframe h-[353px]"
               width="100%"
@@ -71,10 +71,10 @@ function ContactUs() {
             <a href="https://mcpenation.com/">https://mcpenation.com</a>
           </div>
         </div>
-        <div className="lg:flex items-center px-[28px]">
-          <div className="basis-1/2">
+        <div className="m:flex mt-12 px-[10px] justify-between s:px-[initial] w-[90%]  mx-auto  sm:w-[540px] md:w-[720px] lg:max-w-[1280px] xl:max-w-[1536px">
+          <div className="basis-[45%]">
             <h2 className="text-[red] font-bold text-2xl">GET IN TOUCH</h2>
-            <p>
+            <p className="text-xs">
               Feedback is the grease that keeps the wheels of business rolling.
               Without soliciting feedback from customers, management and
               employees, no one will know what the real pulse of the business
@@ -83,7 +83,7 @@ function ContactUs() {
               planning.
             </p>
           </div>
-          <div className="basis-1/2">
+          <div className="basis-[50%]">
             <GetinTouch />
           </div>
         </div>

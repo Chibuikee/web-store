@@ -92,6 +92,6 @@ a:active {
   display: block;
 }
 /* utilities */
-/* .php::placeholder {
+.php::placeholder {
   padding-left: 12px;
-} */
+}
