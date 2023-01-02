@@ -11,8 +11,11 @@ function CheckOutTotaling({ cartData }) {
       <div>
         <h3 className="text-stone-500">Products</h3>
         <div className="h-[1px] w-full bg-stone-500 my-2"></div>
-        {cartData?.CartData.map((item) => (
-          <div className="flex justify-between w-full xxxs:max-w-[300px] m:w-full">
+        {cartData?.CartData.map((item, key) => (
+          <div
+            key={key}
+            className="flex justify-between w-full xxxs:max-w-[300px] m:w-full"
+          >
             <h3>{item.name}</h3>
             <h3>{item.retailPrice}</h3>
           </div>

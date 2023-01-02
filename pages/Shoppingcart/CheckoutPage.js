@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import CheckOutTotaling from "../../components/CheckOutTotaling/CheckOutTotaling";
 import { useSelector, useDispatch } from "react-redux";
 import Layout1 from "../../components/Layout/Layout1";
+import Link from "next/link";
 
 function CheckoutPage() {
   const CartData = useSelector((state) => state.cart);
@@ -21,7 +22,10 @@ function CheckoutPage() {
       <div>
         <div className="saturate-[0] bg-[url('/static/images/Wallpapers/thomas-serer-R_0rTS9ENnk-unsplash.jpg')_] bg-center bg-cover w-[100%] h-[120px]">
           <h6 className="text-white px-[28px] pt-8 text-sm">
-            <a href="/">Home</a>/CheckoutPage
+            <Link>
+              <a href="/">Home</a>
+            </Link>
+            /CheckoutPage
           </h6>
           <h1 className=" text-xl mmd:text-3xl font-semibold text-white px-[28px]">
             CHECKOUT
