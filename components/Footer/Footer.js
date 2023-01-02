@@ -10,10 +10,10 @@ function Footer() {
         <div className="md:flex  justify-between mb-10">
           <div className="basis-[1/4] text-center xxs:text-left">
             <h3 className="text-[#D93434] py-5 font-bold">Musknet</h3>
-            <p className="xxs:max-w-[20ch]">
+            {/* <p className="xxs:max-w-[20ch]">
               Looks like you lost your connection. Please check it and try
               again.
-            </p>
+            </p> */}
             <ul className=" basis-2/4 mt-1 flex space-x-4 mx-auto xxs:mx-[initial] w-[fit-content] ">
               {links.map((item, key) => (
                 <li
