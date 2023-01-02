@@ -17,10 +17,12 @@ function ContactUs() {
           }}
           className="text-[white] text-[1.5rem] font-semibold bg-center bg-cover w-[100%] h-[220px]"
         >
-          <h4 className="">Home/Contact Us</h4>
-          <h1>CONTACT US</h1>
+          <h4 className="px-[28px] pt-8 text-sm">Home/Contact Us</h4>
+          <h1 className="text-xl mmd:text-3xl font-semibold px-[28px] mt-5">
+            CONTACT US
+          </h1>
         </div>
-        <div class="flex mt-6 items-center">
+        <div class="m:flex mt-6 items-center px-[28px]">
           <div>
             <div className="flex flex-col gap-12">
               {officeContacts.map((item, keys) => (
@@ -69,7 +71,7 @@ function ContactUs() {
             <a href="https://mcpenation.com/">https://mcpenation.com</a>
           </div>
         </div>
-        <div className="lg:flex items-center">
+        <div className="lg:flex items-center px-[28px]">
           <div className="basis-1/2">
             <h2 className="text-[red] font-bold text-2xl">GET IN TOUCH</h2>
             <p>

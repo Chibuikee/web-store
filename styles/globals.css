@@ -91,3 +91,7 @@ a:active {
 .paymentMethod input:checked + span {
   display: block;
 }
+/* utilities */
+/* .php::placeholder {
+  padding-left: 12px;
+} */
