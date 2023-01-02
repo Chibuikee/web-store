@@ -32,7 +32,7 @@ function Navbar() {
         <div className="menu-main-ctn lg:basis-[70%] relative">
           <input type="checkbox" id="check" className="hidden" />
           <label
-            for="check"
+            htmlFor="check"
             className="navdrop-ctn"
             onClick={() => setNavBarToggle(!navBarToggle)}
           >

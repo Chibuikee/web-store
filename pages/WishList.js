@@ -19,7 +19,6 @@ function Wishlist() {
   return (
     <Layout1>
       <section>
-        {" "}
         <div
           style={{
             backgroundImage:

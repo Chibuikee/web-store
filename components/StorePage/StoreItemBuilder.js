@@ -24,7 +24,7 @@ function StoreItemBuilder(props) {
         <h5 className="mb-auto">{newShoe.gender}</h5>
 
         <Link href={"/Shoepreview/" + newShoe.id}>
-          <button className="bg-black text-white text-[8px] md:text-[16px] md:py-2 md:px-4 py-1 sm:px-2 px-[2px] rounded focus:outline-none focus:shadow-outline">
+          <button className="bg-black text-white text-[12px] md:text-[16px] md:py-2 md:px-4 py-2 sm:px-2 px-[8px] rounded focus:outline-none focus:shadow-outline">
             view product
           </button>
         </Link>

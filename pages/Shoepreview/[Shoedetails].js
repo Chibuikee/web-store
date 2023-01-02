@@ -14,8 +14,10 @@ function Shoedetails() {
   const [Shoes, setShoes] = useState(null);
   const [desc, setDesc] = useState(null);
   const [comment, setComment] = useState(null);
-  const { mainData } = useSelector((state) => state);
+  const { mainData, wishList, cart } = useSelector((state) => state);
   const fetchedShoeDetails = mainData.find((item) => item.id === productId);
+  const wished = wishList.some((item) => item.id == productId);
+  const insideCart = cart.some((item) => item.id == productId);
   useEffect(() => {
     setShoes(fetchedShoeDetails);
   }, [fetchedShoeDetails]);
@@ -40,19 +42,19 @@ function Shoedetails() {
               className="bg-black text-white py-2 px-6 w-[45%] rounded focus:outline-none focus:shadow-outline"
               onClick={() => dispatch(addToCart(Shoes))}
             >
-              To Cart
+              {insideCart ? "In cart" : "To Cart"}
             </button>
             <button
               className="bg-black text-white py-2 px-6 w-[45%] rounded focus:outline-none focus:shadow-outline"
               onClick={() => dispatch(AddToWishList(Shoes))}
             >
-              to wishlist
+              {wished ? "Wished" : "To wishlist"}
             </button>
           </div>
           <div className="">
             <div
               onClick={() => setDesc(!desc)}
-              className="Description-btn flex items-center"
+              className="Description-btn flex items-center w-[fit-content]"
             >
               <span> Description </span>
               {desc ? (
@@ -99,7 +101,7 @@ function Shoedetails() {
           <div>
             <div
               onClick={() => setComment(!comment)}
-              className="Description-btn flex items-center"
+              className="Description-btn flex items-center w-[fit-content]"
             >
               <span>Reviews</span>
               {comment ? (
