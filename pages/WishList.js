@@ -19,8 +19,26 @@ function Wishlist() {
   return (
     <Layout1>
       <section>
-        <h1 className="text-4xl font-bold">WISHLIST</h1>
-        <div>
+        {" "}
+        <div
+          style={{
+            backgroundImage:
+              "linear-gradient(rgba(0,0,0,1.527),rgba(0,0,0,0.5)),url('/static/images/Wallpapers/peter-aroner-KRvPP5i7DWA-unsplash.jpg')",
+          }}
+          className="text-[white] text-[1.5rem] bg-center bg-cover w-[100%] h-[220px]"
+        >
+          <h4 className="px-[28px] pt-8 text-sm">Home/Wish List</h4>
+          <h1 className="text-xl mmd:text-3xl font-semibold px-[28px] mt-5">
+            WISHLIST
+          </h1>
+        </div>
+        <div className="mt-12 px-[10px] s:px-[initial] w-[90%]  mx-auto  sm:w-[540px] md:w-[720px] lg:max-w-[1280px] xl:max-w-[1536px">
+          <div className="hidden  s:grid grid-cols-[3fr_1fr_1fr_2fr] justify-items-end">
+            <h3 className="basis-[40%]">Product</h3>
+            <h3 className="">Price</h3>
+            <h3 className="">Status</h3>
+            <h3 className="">Cart</h3>
+          </div>
           {wishList.map((data) => (
             <Wishesbuilder
               WishesData={{

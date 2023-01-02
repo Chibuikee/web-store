@@ -11,7 +11,7 @@ function Discount() {
       </p>
       <div className="xs:flex items-center gap-5">
         <input
-          className="basis-[60%] w-full mt-[2px] py-2 block border-solid border border-[red]"
+          className="php basis-[60%] w-full mt-[2px] py-2 block border-solid border border-[red]"
           type="text"
           placeholder="Enter your coupon"
         />
