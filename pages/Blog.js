@@ -5,6 +5,8 @@ import { addDoc, collection, Timestamp } from "firebase/firestore";
 import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
 import { db, storage } from "../firebaseConfig";
 import { toast } from "react-toastify";
+import { FiSearch } from "react-icons/fi";
+import BlogheaderBuilder from "../components/blog/blogheaderBuilder";
 const InitiaState = {
   createdAt: Timestamp.now().toDate(),
   description: "",
@@ -86,39 +88,60 @@ function Blog() {
   return (
     <Layout1>
       <section>
-        <div>
-          <AllComents />
+        <div
+          style={{
+            backgroundImage:
+              "linear-gradient(rgba(0,0,0,1.527),rgba(0,0,0,0.5)),url('/static/images/Wallpapers/peter-aroner-KRvPP5i7DWA-unsplash.jpg')",
+          }}
+          className="text-[white] text-[1.5rem] bg-center bg-cover w-[100%] h-[220px]"
+        >
+          <h4 className="px-[28px] pt-8 text-sm">Home/Blog</h4>
+          <h1 className="text-xl mmd:text-3xl font-semibold px-[28px] mt-5">
+            Blog
+          </h1>
         </div>
-        <div>
-          <h1>WRITE A COMMENT</h1>
-          <form>
-            <input
-              className="mt-[2px] block border-solid border border-[red]"
-              type="file"
-              name="imageUrl"
-              placeholder="Import your Image"
-              accept="image/*"
-              onChange={handleImageChange}
-            />
-            <input
-              className="mt-[2px] block border-solid border border-[red]"
-              type="text"
-              name="name"
-              placeholder="Enter Name"
-              value={formData?.name}
-              onChange={handleChange}
-            />
-            <input
-              className="mt-[2px] block border-solid border border-[red]"
-              type=""
-              placeholder="Your Comment"
-              name="description"
-              onChange={handleChange}
-              value={formData?.description}
-            />
-            <button onClick={handleSubmit}>Submit</button>
-          </form>
-          <span>{Progess === 0 ? 0 : Progess}</span>
+        <div class="mt-12 px-[10px] s:px-[initial] w-[90%]  mx-auto  sm:w-[540px] md:w-[720px] lg:max-w-[1280px] xl:max-w-[1536px">
+          <div className="flex">
+            <input placeholder="Search" />
+            <FiSearch />
+          </div>
+          <div>
+            <BlogheaderBuilder />
+          </div>
+          <div>
+            <AllComents />
+          </div>
+          <div>
+            <h1>WRITE A COMMENT</h1>
+            <form>
+              <input
+                className="mt-[2px] block border-solid border border-[red]"
+                type="file"
+                name="imageUrl"
+                placeholder="Import your Image"
+                accept="image/*"
+                onChange={handleImageChange}
+              />
+              <input
+                className="mt-[2px] block border-solid border border-[red]"
+                type="text"
+                name="name"
+                placeholder="Enter Name"
+                value={formData?.name}
+                onChange={handleChange}
+              />
+              <input
+                className="mt-[2px] block border-solid border border-[red]"
+                type=""
+                placeholder="Your Comment"
+                name="description"
+                onChange={handleChange}
+                value={formData?.description}
+              />
+              <button onClick={handleSubmit}>Submit</button>
+            </form>
+            <span>{Progess === 0 ? 0 : Progess}</span>
+          </div>
         </div>
       </section>
     </Layout1>
