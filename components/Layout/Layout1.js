@@ -10,9 +10,9 @@ function Layout1({ title, children }) {
         <meta name="description" content="Modern one-stop e-commerce store" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="">
+      <div>
         <Navbar />
-        <main className="">{children}</main>
+        <main>{children}</main>
         <Footer />
       </div>
     </>

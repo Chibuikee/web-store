@@ -24,11 +24,18 @@ const nextConfig = {
         port: "",
         pathname: "v0/b/web-store-57434.appspot.com/o/images/**",
       },
+      {
+        protocol: "https",
+        hostname: "techcrunch.com",
+        port: "",
+        pathname: "wp-content/**",
+      },
     ],
     domains: [
       "images.stockx.com",
       "source.unsplash.com",
       "firebasestorage.googleapis.com",
+      "techcrunch.com",
     ],
   },
 };

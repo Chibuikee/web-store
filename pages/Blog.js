@@ -7,6 +7,8 @@ import { db, storage } from "../firebaseConfig";
 import { toast } from "react-toastify";
 import { FiSearch } from "react-icons/fi";
 import BlogheaderBuilder from "../components/blog/blogheaderBuilder";
+import Image from "next/image";
+import News from "../components/blog/news";
 const InitiaState = {
   createdAt: Timestamp.now().toDate(),
   description: "",
@@ -19,6 +21,7 @@ function Blog() {
   });
   const [file, setFile] = useState(null);
   const [Progess, setProgess] = useState(0);
+  useEffect(() => {}, []);
   useEffect(() => {
     const upLoadfile = () => {
       const storageRef = ref(
@@ -141,6 +144,17 @@ function Blog() {
               <button onClick={handleSubmit}>Submit</button>
             </form>
             <span>{Progess === 0 ? 0 : Progess}</span>
+          </div>
+          <div>
+            <h3>LATEST NEWS</h3>
+            <h6>
+              Keep up to date with our latest articles and uploads. Proin eget
+              tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh
+              pulvinar a.
+            </h6>
+            <div className="">
+              <News />
+            </div>
           </div>
         </div>
       </section>

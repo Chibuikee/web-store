@@ -35,7 +35,7 @@ export default function Home() {
             <div className="w-[90%] sm:w-[540px] md:w-[720px] px-3 lg:max-w-[1280px] xl:max-w-[1536px] absolute top-[30%] text-white left-0 right-0 mx-auto lg:flex">
               <div className="">
                 <h1 className="text-5xl">
-                  CHOOSE YOUR <sapn className="block">SHOES WITH US.</sapn>
+                  CHOOSE YOUR <span className="block">SHOES WITH US.</span>
                 </h1>
                 <span className="text-base hero-paragragh">
                   We will help you to choose the product that without the doubt
@@ -43,7 +43,7 @@ export default function Home() {
                 </span>
                 <span className="block">And we mean it</span>
                 <button className="bg-black text-base text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-                  Read More
+                  Read More sapn
                 </button>
               </div>
               <div className="w-[300px] h-[200px] mx-auto hidden lg:block">
