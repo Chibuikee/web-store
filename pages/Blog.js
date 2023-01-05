@@ -65,7 +65,9 @@ function Blog() {
   function handleSubmit(e) {
     e.preventDefault();
     if (!formData.imageUrl || !formData.description || !formData.name) {
-      alert("Please upload your picture and fill all the fields");
+      toast("Please upload your picture and fill all the fields", {
+        type: "error",
+      });
       return;
     }
 
