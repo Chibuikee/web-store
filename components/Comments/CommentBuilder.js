@@ -20,7 +20,7 @@ function CommentBuilder({ data }) {
       <div className="">
         <h1 className="font-semibold">{data.name}</h1>
         <span className="text-xs">
-          {data.createdAt.toDate().toDateString()}
+          {data.createdAt?.toDate().toDateString()}
         </span>
         <p className="text-sm">{data.description}</p>
       </div>

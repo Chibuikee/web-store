@@ -114,7 +114,7 @@ function Blog() {
           <div className="">
             <AllComents className="max-w-[700px] mx-auto" />
           </div>
-          <div className=" m:w-[400px] mx-auto my-10">
+          <div className=" m:w-[400px] mx-auto md:mx-[initial] my-10">
             <h1 className="text-[1.3rem] text-[red] font-semibold">
               WRITE A COMMENT
             </h1>
