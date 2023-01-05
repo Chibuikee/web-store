@@ -26,7 +26,7 @@ function Blog() {
     const upLoadfile = () => {
       const storageRef = ref(
         storage,
-        `images/${Date.now()}${file?.imageUrl.name}`
+        `images/${Date.now()}${file?.imageUrl?.name}`
       );
       const uploadImageUrl = uploadBytesResumable(storageRef, file?.imageUrl);
       uploadImageUrl.on(
@@ -38,18 +38,15 @@ function Blog() {
           setProgess(progressPercent);
         },
         (err) => {
-          console.log(err);
+          if (err) {
+            toast("Error adding image. Try Again", { type: "error" });
+          }
         },
         () => {
           getDownloadURL(uploadImageUrl.snapshot.ref).then((url) => {
-            setFormData((prev) => ({ ...prev, imageUrl: url }))
-              .then(() => {
-                toast("image added successfully", { type: "success" });
-                setProgess(0);
-              })
-              .catch((err) => {
-                toast("Error adding image. Try Again", { type: "error" });
-              });
+            setFormData((prev) => ({ ...prev, imageUrl: url }));
+            toast("image added successfully", { type: "success" });
+            setProgess(0);
           });
         }
       );
@@ -77,9 +74,9 @@ function Blog() {
     async function writeDb() {
       try {
         await addDoc(commentRef, formData);
-        console.log(`This value is updated, congrats`);
+        toast("This value is updated, congrats", { type: "success" });
       } catch (error) {
-        console.log(`This error is stil there${error}`);
+        toast("This value is not updated, try again", { type: "error" });
       }
     }
     writeDb();
