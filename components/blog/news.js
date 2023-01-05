@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BsArrowRight } from "react-icons/bs";
+
 import React, { useState } from "react";
 import useSWR from "swr";
 
 function News() {
-  const [show, setShow] = useState("6");
+  const [show, setShow] = useState("1");
   const apiKey = process.env.NEXT_PUBLIC_NEWS_KEY;
   const fetcher = (url) => fetch(url).then((res) => res.json());
   const { data, error, isLoading } = useSWR(
@@ -31,7 +33,7 @@ function News() {
 
   return (
     <div>
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-2 s:grid-cols-3">
         {data?.articles.slice(idNo, indexNo).map((item, key) => (
           <div key={key}>
             <div>
@@ -42,33 +44,39 @@ function News() {
                 alt="news"
               />
             </div>
-            <span>{newsTime(item.publishedAt)}</span>
-            <h5 className="truncate">{item.title}</h5>
-            <h6>
+            <h6 className="text-xs text-center text-[#e6e0e0] font-semibold">
+              {newsTime(item.publishedAt)}
+            </h6>
+            <h5 className="truncate text-center text-sm font-semibold text-red-500">
+              {item.title}
+            </h5>
+            <h6 className="text-xs text-center">
               <Link href={item.url}>
-                <a>Read More</a>
+                <a>
+                  Read More <BsArrowRight className="inline text-center" />
+                </a>
               </Link>
             </h6>
           </div>
         ))}
       </div>
-      <div className="flex gap-5">
+      <div className="flex gap-5 justify-center mt-10">
         <div
           onClick={() => setShow("1")}
           className={`h-2 w-2 rounded ${
-            show === "1" ? "bg-red-600" : "bg-blue-800"
+            show === "1" ? "bg-red-600" : "bg-[grey]"
           }`}
         ></div>
         <div
           onClick={() => setShow("2")}
           className={`h-2 w-2 rounded ${
-            show === "2" ? "bg-red-600" : "bg-blue-800"
+            show === "2" ? "bg-red-600" : "bg-[grey]"
           }`}
         ></div>
         <div
           onClick={() => setShow("3")}
           className={`h-2 w-2 rounded ${
-            show === "3" ? "bg-red-600" : "bg-blue-800"
+            show === "3" ? "bg-red-600" : "bg-[grey]"
           }`}
         ></div>
       </div>

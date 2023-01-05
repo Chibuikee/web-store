@@ -111,22 +111,24 @@ function Blog() {
           <div>
             <BlogheaderBuilder />
           </div>
-          <div>
-            <AllComents />
+          <div className="">
+            <AllComents className="max-w-[700px] mx-auto" />
           </div>
-          <div>
-            <h1>WRITE A COMMENT</h1>
-            <form>
+          <div className=" m:w-[400px] mx-auto my-10">
+            <h1 className="text-[1.3rem] text-[red] font-semibold">
+              WRITE A COMMENT
+            </h1>
+            <form className="">
               <input
-                className="mt-[2px] block border-solid border border-[red]"
+                className="my-2 w-full rounded php block border-solid border border-[red]"
                 type="file"
                 name="imageUrl"
-                placeholder="Import your Image"
+                placeholder=""
                 accept="image/*"
                 onChange={handleImageChange}
               />
               <input
-                className="mt-[2px] block border-solid border border-[red]"
+                className="my-2 w-full rounded php block border-solid border border-[red]"
                 type="text"
                 name="name"
                 placeholder="Enter Name"
@@ -134,25 +136,33 @@ function Blog() {
                 onChange={handleChange}
               />
               <input
-                className="mt-[2px] block border-solid border border-[red]"
+                className="my-2 pb-10 rounded w-full php block border-solid border border-[red]"
                 type=""
                 placeholder="Your Comment"
                 name="description"
                 onChange={handleChange}
                 value={formData?.description}
               />
-              <button onClick={handleSubmit}>Submit</button>
+
+              <button
+                className="bg-[grey] text-white w-full s:w-[initial] mt-5 py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                onClick={handleSubmit}
+              >
+                Submit
+              </button>
             </form>
-            <span>{Progess === 0 ? 0 : Progess}</span>
+            <span className={`${Progess === 0 ? "hidden" : "inline"}`}>
+              {Progess === 0 ? 0 : Progess}
+            </span>
           </div>
           <div>
-            <h3>LATEST NEWS</h3>
-            <h6>
+            <h3 className="font-semibold text-[1.2rem]">LATEST NEWS</h3>
+            <h6 className="text-sm text-[grey] max-w-[400px]">
               Keep up to date with our latest articles and uploads. Proin eget
               tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh
               pulvinar a.
             </h6>
-            <div className="">
+            <div className="mt-10">
               <News />
             </div>
           </div>

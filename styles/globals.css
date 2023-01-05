@@ -94,4 +94,5 @@ a:active {
 /* utilities */
 .php::placeholder {
   padding-left: 12px;
+  font-size: small;
 }
