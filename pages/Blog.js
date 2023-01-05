@@ -52,7 +52,7 @@ function Blog() {
       );
     };
     /**check for file in the state before calling the upload function */
-    file && upLoadfile();
+    file?.imageUrl?.name && upLoadfile();
   }, [file]);
 
   function handleChange(e) {
