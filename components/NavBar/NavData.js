@@ -19,7 +19,7 @@ export const NavMenuList = [
   {
     title: { name: "PRODUCT", url: "/Shop" },
     childList: [
-      { name: "Adidas", url: "/Adidas" },
+      { name: "adidas", url: "/Adidas" },
       { name: "Nike", url: "/Nike" },
       { name: "Jordan", url: "/Jordan" },
       { name: "Reebok", url: "/Reebok" },

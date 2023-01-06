@@ -3,10 +3,12 @@ import { HYDRATE, createWrapper } from "next-redux-wrapper";
 import cartSlice from "./slices/Cart";
 import wishListSlice from "./slices/Wishlist";
 import StoreData from "./slices/StoreData";
+import WholesearchSlice from "./slices/SearchItem";
 const combinedReducer = combineReducers({
   cart: cartSlice,
   wishList: wishListSlice,
   mainData: StoreData,
+  searchedItem: WholesearchSlice,
 });
 const masterReducer = (state, action) => {
   if (action.type === HYDRATE) {

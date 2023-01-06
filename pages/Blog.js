@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import ShoeDB from "../Resources/ShoeDB.json";
 import AllComents from "../components/Comments/AllComents";
 import Layout1 from "../components/Layout/Layout1";
 import { addDoc, collection, Timestamp } from "firebase/firestore";
@@ -21,7 +22,6 @@ function Blog() {
   });
   const [file, setFile] = useState(null);
   const [Progess, setProgess] = useState(0);
-  useEffect(() => {}, []);
   useEffect(() => {
     const upLoadfile = () => {
       const storageRef = ref(
@@ -87,6 +87,21 @@ function Blog() {
     setProgess(0);
   }
 
+  // add an array of data to  the database
+  // To be used for uploading data to database
+  const addToDb = collection(db, "shoeDb");
+
+  // async function uploadDatabase() {
+  //   try {
+  //     ShoeDB.forEach((item) => {
+  //       addDoc(addToDb, item);
+  //     });
+  //     console.log("This Database is updated, congrats");
+  //   } catch (error) {
+  //     console.error("Error creating DATABASE: ", error);
+  //   }
+  // }
+
   return (
     <Layout1>
       <section>
@@ -110,6 +125,13 @@ function Blog() {
           <div>
             <BlogheaderBuilder />
           </div>
+
+          {/* <h1
+            onClick={uploadDatabase}
+            className="bg-[grey] text-white w-full s:w-[initial] mt-5 py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          >
+            UPLOAD ALL THE DATABASE
+          </h1> */}
           <div className="">
             <AllComents className="max-w-[700px] mx-auto" />
           </div>

@@ -1,10 +1,15 @@
 import Link from "next/link";
+// import { useNavigate } from "next/router";
 import React, { useEffect, useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { RiArrowDropDownLine, RiCloseFill } from "react-icons/ri";
 import { NavMenuList, NavMenuUtilityList } from "./NavData";
+import { useDispatch } from "react-redux";
+import { selectedItem } from "../../slices/SearchItem";
 function Navbar() {
   const [navBarToggle, setNavBarToggle] = useState(true);
+  // const navigate = useNavigate();
+  // const [Amount, setAmount] = useState("Nike");
 
   useEffect(() => {
     const w = () => {
@@ -15,7 +20,12 @@ function Navbar() {
       window.removeEventListener("resize", w);
     };
   }, []);
+  const dispatch = useDispatch();
 
+  function handleNavigation(page) {
+    dispatch(selectedItem(page));
+    // navigate("/Shop", { state: { data: "Yes it worked!!" } });
+  }
   return (
     <nav className="sticky top-0 z-[999] w-full bg-white py-[2rem]">
       <div className="w-[90%] sm:w-[540px] md:w-[720px] px-3 lg:max-w-[1280px] xl:max-w-[1536px] flex flex-wrap justify-between items-center mx-auto ">
@@ -60,9 +70,19 @@ function Navbar() {
                     {childList.length !== 0 && (
                       <ul className="menu-item-children-ctn absolute">
                         {childList.map(({ url, name }, index) => (
-                          <li className="menu-item-child" key={index}>
-                            <Link href={url}>
-                              <a>{name}</a>
+                          <li
+                            className="menu-item-child"
+                            onClick={
+                              title.name == "PRODUCT"
+                                ? () => handleNavigation(name)
+                                : () => {}
+                            }
+                            key={index}
+                          >
+                            <Link
+                              href={title.name == "PRODUCT" ? "/Shop" : url}
+                            >
+                              <a className="capitalize">{name}</a>
                             </Link>
                           </li>
                         ))}
