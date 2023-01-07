@@ -1,6 +1,7 @@
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { IoCallOutline } from "react-icons/io5";
 import { BiLocationPlus } from "react-icons/bi";
+import Link from "next/link";
 export const links = [
   {
     title: (
@@ -39,8 +40,22 @@ export const links = [
   },
 ];
 export const footerLinks = [
-  { title: "INFORMATION", items: ["About Musknet", "FAQ", "Contact Us"] },
-  { title: "QUICK LINKS", items: ["Wishlist", "Checkout", "Cart"] },
+  {
+    title: "INFORMATION",
+    items: [
+      { name: "About Musknet", url: "/" },
+      { name: "FAQ", url: "FeedBack" },
+      { name: "Contactus", url: "/ContactUs" },
+    ],
+  },
+  {
+    title: "QUICK LINKS",
+    items: [
+      { name: "Wishlist", url: "/WishList" },
+      { name: "CheckOut", url: "/Shoppingcart/CheckoutPage" },
+      { name: "Cart", url: "/Shoppingcart" },
+    ],
+  },
 ];
 
 export const FooterLinks = footerLinks.map((item, keys) => (
@@ -48,7 +63,9 @@ export const FooterLinks = footerLinks.map((item, keys) => (
     <h3 className="py-5 text-[#D93434]">{item.title}</h3>
     {item.items.map((info, keys) => (
       <div key={keys}>
-        <h3 className="py-1">{info}</h3>
+        <Link href={info.url}>
+          <h3 className="py-1 cursor-pointer">{info.name}</h3>
+        </Link>
       </div>
     ))}
   </div>

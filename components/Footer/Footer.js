@@ -51,18 +51,5 @@ function Footer() {
     </section>
   );
 }
-// position: absolute;
-// width: 168px;
-// height: 28px;
 
-// font-family: 'Roboto Serif';
-// font-style: normal;
-// font-weight: 500;
-// font-size: 32px;
-// line-height: 133.02%;
-// /* or 43px */
-// #D93434 text color like red wine
-// text-align: center;
-
-// color: #FFFFFF;
 export default Footer;

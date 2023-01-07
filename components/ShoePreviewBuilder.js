@@ -45,7 +45,9 @@ function ShoePreviewBuilder({ item }) {
           <div className=" w-[260px] md:w-[30vw]  grid grid-cols-8 gap-2">
             {shoeSizes.map((size, key) => (
               <button
-                className="p-1 w-[30px] border focus:bg-[rgba(230,230,230,0.44)] border-solid border-[#d17a7a] text-xs"
+                className={` ${
+                  Shoes.size == size ? "bg-[#d17a7a]" : "bg-[#fdfdfd]"
+                } p-1 w-[30px] rounded border border-solid border-[#d17a7a] text-xs`}
                 key={key}
                 value={size}
                 onClick={(e) => handleSizes(e)}
