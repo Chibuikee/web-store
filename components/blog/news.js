@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
-
 import React, { useState } from "react";
 import useSWR from "swr";
 
@@ -34,7 +33,7 @@ function News() {
   return (
     <div>
       <div className="grid grid-cols-2 s:grid-cols-3">
-        {data?.articles.slice(idNo, indexNo).map((item, key) => (
+        {data?.articles?.slice(idNo, indexNo).map((item, key) => (
           <div key={key}>
             <div>
               <Image

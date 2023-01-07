@@ -72,7 +72,6 @@ function Blog() {
     }
 
     const commentRef = collection(db, "Blog");
-
     async function writeDb() {
       try {
         await addDoc(commentRef, formData);
@@ -89,7 +88,7 @@ function Blog() {
 
   // add an array of data to  the database
   // To be used for uploading data to database
-  const addToDb = collection(db, "shoeDb");
+  // const addToDb = collection(db, "shoeDb");
 
   // async function uploadDatabase() {
   //   try {

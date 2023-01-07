@@ -25,9 +25,21 @@ function Shoedetails() {
   return (
     <Layout1>
       <section>
-        <div className="filter brightness-50 bg-[url('/static/images/Wallpapers/thomas-serer-R_0rTS9ENnk-unsplash.jpg')] bg-center bg-cover w-[100%] h-[120px] text-white">
-          <h3 className="">Home/Preview item</h3> <h2>Preview item</h2>
+        <div
+          style={{
+            backgroundImage:
+              "linear-gradient(rgba(0,0,0,1.527),rgba(0,0,0,0.5)),url('/static/images/Wallpapers/thomas-serer-R_0rTS9ENnk-unsplash.jpg')",
+          }}
+          className="text-[white] text-[1.5rem] bg-center bg-cover w-[100%] h-[220px]"
+        >
+          <h4 className="px-[28px] pt-8 text-sm">Home/Preview item</h4>
+          <h1 className="text-xl mmd:text-3xl font-semibold px-[28px] mt-5">
+            Preview item
+          </h1>
         </div>
+        {/* <div className="filter brightness-50 bg-[url('')] bg-center bg-cover w-[100%] h-[120px] text-white">
+          <h3 className="">Home/</h3> <h2>Preview item</h2>
+        </div> */}
         <div className="w-[90%] sm:w-[540px] md:w-[720px] px-3 lg:max-w-[1280px] xl:max-w-[1536px] mx-auto">
           <div>
             {Shoes?.media.imageUrl && (
