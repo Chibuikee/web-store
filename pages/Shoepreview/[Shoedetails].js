@@ -37,9 +37,6 @@ function Shoedetails() {
             Preview item
           </h1>
         </div>
-        {/* <div className="filter brightness-50 bg-[url('')] bg-center bg-cover w-[100%] h-[120px] text-white">
-          <h3 className="">Home/</h3> <h2>Preview item</h2>
-        </div> */}
         <div className="w-[90%] sm:w-[540px] md:w-[720px] px-3 lg:max-w-[1280px] xl:max-w-[1536px] mx-auto">
           <div>
             {Shoes?.media.imageUrl && (

@@ -37,7 +37,7 @@ function News() {
           <div key={key}>
             <div>
               <Image
-                src={item.urlToImage}
+                src={item?.urlToImage}
                 height={200}
                 width={200}
                 alt="news"

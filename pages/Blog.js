@@ -8,7 +8,7 @@ import { db, storage } from "../firebaseConfig";
 import { toast } from "react-toastify";
 import { FiSearch } from "react-icons/fi";
 import BlogheaderBuilder from "../components/blog/blogheaderBuilder";
-import Image from "next/image";
+// import Image from "next/image";
 import News from "../components/blog/news";
 const InitiaState = {
   createdAt: Timestamp.now().toDate(),
