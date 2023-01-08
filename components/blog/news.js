@@ -6,7 +6,7 @@ import useSWR from "swr";
 
 function News() {
   const [show, setShow] = useState("1");
-  const apiKey = process.env.NEXT_PUBLIC_NEWS_KEY;
+  const apiKey = process.env.NEXT_PUBLIC_VERCEL_ENV_NEWS_KEY;
   const fetcher = (url) => fetch(url).then((res) => res.json());
   const { data, error, isLoading } = useSWR(
     `https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${apiKey}`,
