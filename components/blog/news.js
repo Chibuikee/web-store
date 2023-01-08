@@ -2,17 +2,20 @@ import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
 import React, { useState } from "react";
+import axios from "axios";
 import useSWR from "swr";
 
 function News() {
   const [show, setShow] = useState("1");
   const apiKey = process.env.NEXT_PUBLIC_VERCEL_ENV_NEWS_KEY;
-  const fetcher = (url) => fetch(url).then((res) => res.json());
-  const { data, error, isLoading } = useSWR(
+  const fetcher = (url) => axios(url).then((res) => res.data);
+  const { data, error } = useSWR(
     `https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${apiKey}`,
     fetcher
   );
-
+  if (error) {
+    console.log("This error is from news component", error);
+  }
   const indexNo = show === "1" ? " 3" : show === "2" ? "6" : "10";
   const idNo = show === "1" ? "0" : show === "2" ? "3" : "6";
   //   const cleanIndex = indexNo.replace(/"/g, "");

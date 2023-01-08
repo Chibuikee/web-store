@@ -116,7 +116,7 @@ function Blog() {
             Blog
           </h1>
         </div>
-        <div class="mt-12 px-[10px] s:px-[initial] w-[90%]  mx-auto  sm:w-[540px] md:w-[720px] lg:max-w-[1280px] xl:max-w-[1536px">
+        <div className="mt-12 px-[10px] s:px-[initial] w-[90%]  mx-auto  sm:w-[540px] md:w-[720px] lg:max-w-[1280px] xl:max-w-[1536px">
           <div className="flex">
             <input placeholder="Search" />
             <FiSearch />
