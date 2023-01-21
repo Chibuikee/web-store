@@ -9,25 +9,21 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "images.stockx.com",
-        port: "",
         pathname: "images/**",
       },
       {
         protocol: "https",
         hostname: "source.unsplash.com",
-        port: "",
         pathname: "random/**",
       },
       {
         protocol: "https",
         hostname: "firebasestorage.googleapis.com",
-        port: "",
         pathname: "v0/b/web-store-57434.appspot.com/o/images/**",
       },
       {
         protocol: "https",
         hostname: "techcrunch.com",
-        port: "",
         pathname: "wp-content/**",
       },
     ],
