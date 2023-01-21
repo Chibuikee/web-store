@@ -15,11 +15,13 @@ function FAQList() {
           <h3 className="font-bold">MUSKNET 2022</h3>
           <div>
             {FAQ.slice(0, 3).map((item, key) => (
-              <div className="relative text-sm py-2 my-2 rounded border-solid border border-[red]">
+              <div
+                className="relative text-sm py-2 my-2 rounded border-solid border border-[red]"
+                key={key}
+              >
                 <h3
                   className="mx-auto truncate w-[70%]"
                   onClick={() => setPreview({ ...item })}
-                  key={key}
                 >
                   {item.heading}
                 </h3>
@@ -36,11 +38,13 @@ function FAQList() {
         displayed */}
           <div>
             {FAQ.slice(3, Amount ? undefined : -3).map((item, key) => (
-              <div className="relative text-sm py-2 my-2 rounded border-solid border border-[red]">
+              <div
+                className="relative text-sm py-2 my-2 rounded border-solid border border-[red]"
+                key={key}
+              >
                 <h3
                   className="mx-auto truncate w-[70%]"
                   onClick={() => setPreview({ ...item })}
-                  key={key}
                 >
                   {item.heading}
                 </h3>
