@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PopUp from "./PopUp";
 import FAQ from "../../Resources/FAQ.json";
-import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 
 function FAQList() {
   const [previewData, setPreview] = useState();

@@ -25,7 +25,7 @@ function FeedBack() {
               <input
                 className="mt-[2px] php basis-[60%] w-full py-1 block border-solid border border-[red]"
                 type="search"
-                placeholder="What can we help you to find"
+                placeholder="What`s your question?"
               />
               <button className="bg-black text-white basis-[40%] py-1 px-4 w-full rounded focus:outline-none focus:shadow-outline">
                 Search
