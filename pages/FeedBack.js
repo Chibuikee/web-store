@@ -33,20 +33,20 @@ function FeedBack() {
             </form>
           </div>
           <hr className="mt-16" />
-          <div>
+          <div className="mx-auto xs:w-[80%]">
             <FAQList />
           </div>
           <div>
-            <h1>HAVE ANY QUESTIONS?</h1>
+            <h1 className="font-bold">HAVE ANY QUESTIONS?</h1>
             <GetinTouch />
           </div>
-          <div>
+          <div className="hidden">
             <div>
-              <h2>OUR NEWSSELLER</h2>
-              <p>
+              <h2 className="font-semibold">OUR NEWSSELLER</h2>
+              <p className="text-sm">
                 Subcribe to get more useful information about us and to get you
-                <span className="text-[red] text-sm">15% discount </span>off
-                your next purchase
+                <span className="text-[red]">15% discount </span>off your next
+                purchase
               </p>
             </div>
             <div>

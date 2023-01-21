@@ -12,8 +12,8 @@ function FAQList() {
       <div>
         <div>{previewData && <PopUp data={{ previewData, setPreview }} />}</div>
         <div className="xs:flex">
-          <h3 className="font-bold">MUSKNET 2022</h3>
-          <div>
+          <h3 className="font-bold basis-[20%]">MUSKNET 2022</h3>
+          <div className="basis-[70%]">
             {FAQ.slice(0, 3).map((item, key) => (
               <div
                 className="relative text-sm py-2 my-2 rounded border-solid border border-[red]"
@@ -32,11 +32,11 @@ function FAQList() {
         </div>
         <hr className="my-5" />
         <div className="xs:flex">
-          <h3 className="font-bold">ABOUT ORDERS</h3>
+          <h3 className="font-bold basis-[20%]">ABOUT ORDERS</h3>
 
           {/*conditionally increase or reduce the number of items to be
         displayed */}
-          <div>
+          <div className="basis-[70%]">
             {FAQ.slice(3, Amount ? undefined : -3).map((item, key) => (
               <div
                 className="relative text-sm py-2 my-2 rounded border-solid border border-[red]"
@@ -54,7 +54,7 @@ function FAQList() {
           </div>
         </div>
         <button
-          className="bg-black text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          className="block w-[150px] mt-5 mb-10 mx-auto bg-black text-white py-1 px- rounded focus:outline-none focus:shadow-outline"
           onClick={() => setAmount(!Amount)}
         >
           {Amount ? "Show Less" : "Show All"}
